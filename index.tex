@@ -16,13 +16,19 @@ Orrit}
 \section{Introduction}
 Gold Nanorods (AuNR) are employed in a variety of fields, ranging from solar
 cells production\cite{Catchpole:08} to biosensing. These nanoparticles exhibit a
-Surface Plasmon Resonance (SPR), i.e., a collective oscillation of the
+Surface Plasmon Resonance (SPR), i.e. a collective oscillation of the
 conduction electrons, that is related to their aspect ratio (AR); spherical
 particles (AR=$1$) have the plasmon peak at around $540nm$ while rods can be
 tuned to have it even above $900nm$. This tuning is usally done at the time of
 the synthesis by varying the concentration of seed and grow solutions. However,
 even in the best case, every sample will show a dispersion of both shapes and 
-plasmon peak positions.
+plasmon peak positions. 
+
+Tuning the resonance of plasmonic structures after the synthesis of the
+particles and moreover after fixing them on a substrate are of great interest
+for a diversity of experiments where, for instance, there is the need of
+overlapping the particle spectra with a fluorophore or with the wavelenght of
+the available lasers.
 
 This work focus in the employment of KCN as an etching agent that will allow to
 fine-tune the plasmon peak position. The overall reaction can be written as 
@@ -54,22 +60,24 @@ Oil immersion) is used for both focusing the laser and collecting the
 luminescence. A $532nm$ notch filter is used for cutting out the excitation.
 
 The samples are prepared by spin casting a suspention of AuNR on a clean
-coverslip and thoroughsly rinsing them  with water for eliminating the excess of
-CTAB. The samples are then placed in a flowcell; the initial spectra are taken
-with the rods immersed in Milli-Q water. After this, a solution of KCN is flowed
-into the cell with concentrations ranging from $3\mu M$ to $50\mu M$. Then the
-spectra of several rods is collected by consecutively focusing in different
-particles. This allows to track the spectra of approximately $10$ particles
-simultaneusly.
+coverslip and thoroughsly rinsing them  with milli-Q water for eliminating the
+excess of CTAB. The samples are then placed in a flowcell; the initial spectra
+are taken with the rods immersed in Milli-Q water. After this, a solution of
+KCN is flowed into the cell with concentrations ranging from $3\mu M$ to $50\mu
+M$. Then the spectra of approximately $10$ different particles is
+acquired by consecutively focusing in each one. The time resolution varies
+according to the exposure time and number of particles; in this case a spectra
+is taken at least every minute.
 
-The second kind of experiments were performed in an SEM. The samples
-were prepared by letting a droplet of a suspension of AuNR dry on top of a
+The second kind of experiments are performed in an SEM. The samples
+are prepared by letting a droplet of a suspension of AuNR dry on top of a
 silicon waffer and then thoroughlsy rinsing them with water for eliminating the
 excess of CTAB. The same samples are employed for taking images before and after
 immersing the particles in $30\mu M$ KCN. Particular care is taken in having the
 rods separated from each other as to reproduce the conditions found in the
 optical experiment. After immersing the samples in KCN for a given period of
-time, they are rinsed with water to stop the reaction.
+time, they are rinsed with water to stop the reaction and dried with a nitrogen
+flow.
 
 \section{Results and discussion}
 As stated before two experiments are performed, the first in a
@@ -90,24 +98,14 @@ of a lower temporal resolution.
 \end{figure}
 
 Figure \ref{fig:plasmon_single_rod} shows the typical behavior of the plasmon of
-a single rod while immersed in KCN $30\mu M$. The Figure shows the acquired
+a single rod while immersed in $30\mu M$ KCN. The Figure shows the acquired
 spectra with an interval of $70s$ while the inset shows the peak position
 (calculated by fitting the spectra with a lorentzian) over time. It can be seen
 that the plasmon red-shifts over $100\, nm$ ($0.25\, eV$) in $5$ minutes. The
 diminishing intensity is consistent with the volume loss given by the
 dissolution of gold. In this case only one rod is observed therefore having a
 higher temporal resolution, but exactly the same trend was observed for each
-single nanorod.
-
-
-
-Figure \ref{fig:SEM_30muM} shows three SEM images for a sample of the same
-nanorods used in the optical experiment before the etching, after $2min$
-submersed in KCN and after $4min$. It is possible to observe that the AuNR
-preserve the shape while diminishing the volume and increasing the aspect ratio.
-This enables to perform statistics on the findings, as will be explain
-hereafter. 
-
+single nanorod analyzed.
 
 \begin{figure}[htb]
  \centering
@@ -126,34 +124,52 @@ standard deviation of the distribution at each point. The bigger time step
 between $225s$ and $340s$ is due to an automatic refocusing happening on the
 particles every $5\textrm{min}$. 
 
-The red-shift is observed for every particle, at different KCN concentrations.
-The broadening of the distribution is also observed and has to be attributed to
-intrinsic inhomogenities in the particles since it is not possible to relate it 
-nor to the initial particle volume nor to its initial plasmon peak position. 
+This exact same trend is observed for every particle at different KCN
+concentrations. The broadening of the distribution is also observed and has to
+be attributed to intrinsic inhomogenities in the particles since it is not
+possible to find a trend in the shift rate nor with the initial particle 
+volume nor to the initial peak position. 
+% How can this be explained????
 
-Figure \ref{fig:plasmon_distribution_sem} shows the aspect ratio distribution of
-the AuNR at the beginning, after $2min$ and after $4min$ in KCN. It is possible
-to observe that the aspect ratio increases with time and that it's distribution
-is getting broader. This is in a direct agreement with what was found in the
-optical experiment (i.e. a larger aspect ratio leads to a plasmon position
-towards the red and a broadening of the distribution means a broadening in the
-plasmon peak position). 
+Figure \ref{fig:SEM_30muM} shows three SEM images for a sample of the same
+nanorods used in the optical experiment before the etching, after $2min$
+submersed in KCN and after $4min$. Table \ref{tab:SEM_results} summarizes the
+averaged values found after analyzing approximately $300$ particles. It is
+possible to observe that the AuNR preserve the shape while diminishing the
+volume and increasing the aspect ratio. Nevertheless this changes are
+inside the standard distribution of each parameter. Because of how the
+experiments are performed tracking a single-particle in the SEM is not
+possible. However the broadening of the distribution is consistent with the
+optical results and can be therefore used as a reference for the average
+behavior.
 
-To interpret these results it is possible to calculate the plasmon peak position
-together with the size of the particle by using the ADDA package. By checking
-the radius and length distribution of the rods in the SEM at different instants, 
-it can be assumed an isotropic etching, i.e. both radius and length diminish at
-the same rate. Figure \ref{fig:adda_plasmon_shift} shows the shift of the
-plasmon peak. The horizontal axis scale was set to match the results of the SEM
-(namely, an etching rate of $0.5nm/min$ for a KCN concentration of $30\mu M$).
-It is possible to observe a great overlap with what was observed for a single
-particle in the optical experiment. 
+
+\begin{tabular*}{0.48\textwidth}{c c c c c}
+ $\,$ & L (nm) & Sdv (nm) & R (nm) & Sdv (nm) \\\hline
+ $0min$ & $51$ & $5$ & $24$ & $3$ \\ 
+ $2min$ & $50$ & $5$ & $23$ & $3$ \\
+ $4min$ & $49$ & $5$ & $22$ & $2$ \\
+\label{tab:SEM_results}
+
+\end{tabular*}
+
+
+
+To link both results it is possible to calculate the plasmon peak position
+together with the size of the particle by using the discrete dipole
+approximation. According to the observations in the SEM experiments, it
+is possible to assume an isotropic etching, i.e. both radius and length
+diminish at the same rate, and in this particular case it is at around
+$0.5\,nm/min$. In Figure \ref{fig:plasmon_average} the red line shows the
+result from the simulation. It can be seen that it falls into the distribution
+of the plasmon peak positions.
 
 \section{Conclusions}
 In this work it is shown a simple method that allows the tuning of the plasmon
-peak position of a gold nanorod with nanometer accuracy. More importantly, it is
-shown that the rodlike shape is preserved even for plasmon shifts of
-approximately $80nm$ therefore keeping the well known properties of them. 
+peak position of a single gold nanorod with nanometer accuracy. More
+importantly, it is shown that the rodlike shape is preserved even for plasmon
+shifts of approximately $80nm$ therefore keeping the well known properties of
+them.
 
 The optical experiments show the red-shift of the plasmon with a high time
 accuracy, while with the SEM it is possible to confirm that the shape of the
@@ -161,11 +177,16 @@ rods is being preserved. The agreement between the simulations and the
 experimental results not only show the link between both measurments but also
 provide a way of predicting the behaviour of the plasmon peak. 
 
-Tuning the resonance of plasmonic structures after the synthesis of the
-particles and moreover after fixing them on a substrate are of great interest
-for a diversity of experiments where, for instance, there is the need of
-overlapping the particle spectra with a fluorophore or with the wavelenght of
-the available lasers.
+However, it is also found a great distribution width at the rate plasmon shifts
+for different particles under the same experimental conditions. This can be
+explained only considering that there is an intrinsic difference between
+particles; this differences can be attributed to defects on the particle surface
+or to inhomogenities in the CTAB present; even if care is taken to remove it
+by rinsing with water it may be that some remains sticked to the particle.
+
+Combining this results with the catalytic properties of gold and the presence of
+the plasmon resonance opens the door for fine-controlling chemical reactions
+while irradiating the particles with specific wavelengths.
 
 \bibliography{bibliography}{}
 \bibliographystyle{plain}
