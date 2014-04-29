@@ -5,6 +5,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{subfigure}
+\usepackage{epstopdf}
+\epstopdfsetup{update} % only regenerate pdf files when eps file is newer
 \title{Tuning plasmon of gold nanorods by KCN etching}
 \author{Aquiles Carattino \and Pedro Navarro \and Saumya Khatua \and Michel
 Orrit}
@@ -14,33 +16,42 @@ Orrit}
 \abstract{This is the abstract}
 
 \section{Introduction}
-Gold Nanorods (AuNR) are employed in a variety of fields, ranging from solar
-cells production\cite{Catchpole:08} to biosensing. These nanoparticles exhibit a
-Surface Plasmon Resonance (SPR), i.e. a collective oscillation of the
-conduction electrons, that is related to their aspect ratio (AR); spherical
-particles (AR=$1$) have the plasmon peak at around $540nm$ while rods can be
-tuned to have it even above $900nm$. This tuning is usally done at the time of
-the synthesis by varying the concentration of seed and grow solutions. However,
-even in the best case, every sample will show a dispersion of both shapes and 
-plasmon peak positions. 
+Gold nanoparticles exhibit a collective oscillation of conduction electrons
+known as the plasmon resonance of the particle. This resonance depends on the
+aspect ratio (AR) of the particle and can be found from  $540\,nm$ for spheres
+(AR of $1$) to even above $1500\,nm$ for nanorods (AuNR). This makes the gold
+nanoparticles particularly suitable for a range of experiments, and applications
+extending from solar cells production\cite{catchpoleplasmonic2008} to biosensing
+and photodynamic therapy.
 
-Tuning the resonance of plasmonic structures after the synthesis of the
-particles and moreover after fixing them on a substrate are of great interest
-for a diversity of experiments where, for instance, there is the need of
-overlapping the particle spectra with a fluorophore or with the wavelenght of
-the available lasers.
+Tuning the resonance of the particles is useful when there is the need of having
+control over the spectral properties of these structures. For instance it may be
+needed to have a particle with a resonance coinciding with the available lasers;
+or it may be needed to have control over the spectral response for generating
+narrow transparency windows\cite{biswasplasmon-induced2013}.
 
-This work focus in the employment of KCN as an etching agent that will allow to
-fine-tune the plasmon peak position. The overall reaction can be written as 
+Usually the tuning of the resonance is done at the moment of the synthesis. By
+controlling the concentrations of growth and seed solutions it is possible to
+induce the formation of longer or shorter particles. This methods, however,
+always present a big dispertion in their outcome. This hinders the repeteability
+and the ability to build larger, repetitive structures.
+
+It is therefore useful a method that allows the in-situ control of the plasmon
+resonance. This work shows that is possible to change the plasmon resonance in
+more than $100\,nm$ without degrading the optical properties (i.e. the FWHM of
+the peak.) For doing so it is employed KCN as an etching agent; a known and well
+understood compound that is used not only in the nano-industry but also at
+bigger scales, for instance, for gold mining.
 
 \begin{equation}
 4\textrm{Au} + 8\textrm{KCN}^-+\textrm{O}_2 + 2\textrm{H}_2\textrm{O}
 \leftrightarrows 4\textrm{Au(CN)}_2^-+4\textrm{KOH}^-
 \end{equation}
 
-In bulk this compound is used for reducing the aspect ratio of the rods, i.e.
+In bulk this compound was used for reducing the aspect ratio of the rods, i.e.
 blue shifting their plasmon. In a more recent paper it was also used for
-generating highly spherical particles with a narrow size distribution. 
+generating highly spherical particles with a narrow size
+distribution\cite{leeultrasmooth2013}.
 
 In this work the opposite trend is observed. Single-particle experiments of the
 AuNR immersed in KCN show a red-shift of the plasmon meaning an increase in
@@ -48,26 +59,31 @@ aspect ratio. This is confirmed by tracking the spectra of individual rods over
 time as well as by acquiring SEM images of them. A simple model where etching is
 considered as being isotropic and constant, this means that both the radius of
 the particle and it's length diminish at the same rate over time, yields a high
-agreement with both sets of experiments. 
+agreement with both sets of experiments.
 
 \section{Experimental method}
-Two kind of experiments are carried on; the first will be called the optical
-experiment and consists of acquiring the luminescence spectra of single gold
-nanorods (AuNR) in a home built confocal microscope using an Acton 500i
-Spectrometer. For exciting the particles a $532nm$ laser is used with a power
-in the back focal plane of $300\mu W$. A high NA objective (Olympus $60X NA 1.4$
-Oil immersion) is used for both focusing the laser and collecting the
-luminescence. A $532nm$ notch filter is used for cutting out the excitation.
+The first set of experiments is performed in an UV-VIS spectrometer; the
+extintion spectra of a suspension of gold nanorods is acquired as a function of
+time after a solution of KCN is added into the vial. This is going to be
+referred as the bulk experiment.
+
+The second set will be called the optical experiment and consists of acquiring
+the luminescence spectra of single gold nanorods (AuNR) in a home built confocal
+microscope using an Acton 500i Spectrometer. For exciting the particles a
+$532\,nm$ laser is used with a power in the back focal plane of $300\mu W$. A
+high NA objective (Olympus $60X NA 1.4$ Oil immersion) is used for both focusing the
+laser and collecting the luminescence. A $532\,nm$ notch filter is used for
+cutting out the excitation.
 
 The samples are prepared by spin casting a suspention of AuNR on a clean
 coverslip and thoroughsly rinsing them  with milli-Q water for eliminating the
 excess of CTAB. The samples are then placed in a flowcell; the initial spectra
-are taken with the rods immersed in Milli-Q water. After this, a solution of
-KCN is flowed into the cell with concentrations ranging from $3\mu M$ to $50\mu
-M$. Then the spectra of approximately $10$ different particles is
-acquired by consecutively focusing in each one. The time resolution varies
-according to the exposure time and number of particles; in this case a spectra
-is taken at least every minute.
+are taken with the rods immersed in Milli-Q water. This characterizations allows
+to discard clusters of rods. After this, a solution of KCN is flowed into the cell
+with concentrations ranging from $3\mu M$ to $50\mu M$. Then the spectra of
+approximately $10$ different particles is acquired by consecutively focusing in
+each one. The time resolution varies according to the exposure time and number
+of particles; in this case a spectra is taken at least every minute.
 
 The second kind of experiments are performed in an SEM. The samples
 are prepared by letting a droplet of a suspension of AuNR dry on top of a
@@ -80,49 +96,76 @@ time, they are rinsed with water to stop the reaction and dried with a nitrogen
 flow.
 
 \section{Results and discussion}
-As stated before two experiments are performed, the first in a
-confocal microscope and the second in an SEM. These findings are compared to
-numerical simulations using the discrete dipole approximation. The first set of
-experiments allows to have a high temporal resolution, at the same time that
-following the plasmon peak and shape of several AuNR. The second experiment, on
-the other hand, allows to gain insight into the real shape of rods in exchange
-of a lower temporal resolution. 
 
-\begin{figure}[htb]
+As stated earlier, the first experiment performed is the bulk measurement in a
+UV-VIS spectrometer. The extinction spectra of the suspention of rods as a
+function of time can be seen in Figure \ref{fig:bulk}. The main plot shows the
+spectra at intervals of of $9$ minutes after adding a solution of KCN. This
+solution is chosen as to have $50\mu M$ KCN in the cuvette where the suspension
+of AuNR is present. Since after the first $9$ minutes there is no appreciable
+change in the peak position, the same amount of KCN is added into the cuvette,
+yielding a concentration of $100\,\mu M$. This explains the sudden change in the
+time-trace depicted in the inset of the Figure. All the spectra plots are
+normalized to the peak at $2.4\,eV$ for clarity.
+
+\begin{figure}[htbp]
+ \centering 
+ \includegraphics[width=0.95\linewidth]{plasmon_bulk.eps}
+ \caption{Bulk extinction spectra at $10$ minutes time-interval. The arrow
+ indicates the time evolution. A solution of KCN is added into the cuvette with
+ the nanorod suspension as to have a $50\,\mu M$ concentration for the first 9
+ minutes; then this step is repeated, yielding a final KCN concentration of
+ $100\, \mu M$. The inset shows the peak position of the SPR position as a
+ function of time, extracted by fitting the spectra with a Lorenzian.  }
+ \label{fig:bulk}
+\end{figure}
+
+It can be seen that the plasmon peak position shifts towards higher energies
+(from approximately $2.0\,eV$ to $2.1\,eV$ or equivantelly from $620\,nm$ to
+$592\,nm$). It means that the rods are reshaping into spheres as was previously
+observed\cite{janaanisotropic2002}. The asymptotic behavior of the time-trace
+may be due to the small amount of KCN added into the cuvette, that reacts
+entirely with gold therefore stopping the efect after a certain time.
+
+The next set of experiments are performed in a confocal microscope for
+single-particles immobilized on a glass coverslip. Figure
+\ref{fig:plasmon_single_rod} shows the typical behavior of the plasmon of a
+single rod while immersed in $30\,\mu M$ KCN. The Figure shows the acquired
+luminescence spectra with an interval of $70\,s$ between each other while the
+inset shows the peak position (calculated by fitting the spectra with a
+lorentzian) over time. It can be seen that the plasmon red-shifts over $100\,
+nm$ ($0.25\, eV$) in $5$ minutes. The diminishing intensity is consistent with
+the volume loss given by the dissolution of gold. In this particular case only
+one rod is observed therefore having a higher temporal resolution. However the
+same trend is observed for each single nanorod analyzed under the same
+conditions.
+
+\begin{figure}[hbt]
  \centering
- \includegraphics[width=0.9\linewidth]{plasmon_single_rod.eps}
+ \includegraphics[width=0.95\linewidth]{plasmon_single_rod.png}
  \caption{Plasmon shift due to the etching with $30\mu M$ KCN. The time
  interval between peaks is $70s$. The inset shows the peak position of the SPR as a
  function of time, extracted by fitting the spectra with a Lorenzian.}
  \label{fig:plasmon_single_rod}
 \end{figure}
 
-Figure \ref{fig:plasmon_single_rod} shows the typical behavior of the plasmon of
-a single rod while immersed in $30\mu M$ KCN. The Figure shows the acquired
-spectra with an interval of $70s$ while the inset shows the peak position
-(calculated by fitting the spectra with a lorentzian) over time. It can be seen
-that the plasmon red-shifts over $100\, nm$ ($0.25\, eV$) in $5$ minutes. The
-diminishing intensity is consistent with the volume loss given by the
-dissolution of gold. In this case only one rod is observed therefore having a
-higher temporal resolution, but exactly the same trend was observed for each
-single nanorod analyzed.
+These results show the opposite trend than the bulk results and therefore need a
+closer study. Figure \ref{fig:plasmon_average} shows the timetraces of the peak
+positions for nine different rods while being etched with $30\,\mu M$ KCN. The
+pale lines show each individual trace, while the darker is the average. The error
+bars are simply the standard deviation of the distribution at each point. The
+bigger time step between $225\,s$ and $340\,s$ is due to an automatic refocusing
+happening on the particles every $5$ minutes.
 
-\begin{figure}[htb]
+\begin{figure}[hbt]
  \centering
- \includegraphics[width=0.9\linewidth]{plasmon_average.eps}
- \caption{Average plasmon shift for 9 rods due to the etching with $30\mu M$
- KCN. The light curves are individual timetraces while the thick one is the
+ \includegraphics[width=0.95\linewidth]{plasmon_average.png}
+ \caption{Average plasmon shift (thick line) for 9 rods due to the etching with
+ $30\mu M$ KCN. The light curves are individual timetraces while the thick one is the
  average. The error bars are simply the standard deviation at each point. Over
  time the peak distribution gets broader.}
  \label{fig:plasmon_average}
 \end{figure}
-
-Figure \ref{fig:plasmon_average} shows the timetraces of the peak positions of
-$9$ different rods while being etched with $30\mu M$ KCN. The pale lines show
-each individual trace, while the darker is the average. The error bars are simply the
-standard deviation of the distribution at each point. The bigger time step
-between $225s$ and $340s$ is due to an automatic refocusing happening on the
-particles every $5\textrm{min}$. 
 
 This exact same trend is observed for every particle at different KCN
 concentrations. The broadening of the distribution is also observed and has to
@@ -130,6 +173,31 @@ be attributed to intrinsic inhomogenities in the particles since it is not
 possible to find a trend in the shift rate nor with the initial particle 
 volume nor to the initial peak position. 
 % How can this be explained????
+
+One important aspect of these results is that despite the broadening in plasmon
+peak distribution over a sample the width of the plasmon peak of each individual
+rod doesn't increase. Figure \ref{fig:FWHM} shows this behavior. Note that the
+horizontal axis is now the peak shift and not the time. All the particles show
+approximately the same behavior: narrowing of the peak up to $50\,nm$ shift and
+then increasing again. The plasmon width is usally used as a quality check both
+for knowing that they are single particles and for possible changes in shape.
+
+\begin{figure}[hbt]
+ \centering
+ \includegraphics[width=0.95\linewidth]{fwhm_several.png}
+ \caption{Plasmon FWHM of nine different particles immersed in $30\,\mu M$ KCN
+ as a function of their plasmon shift.}
+ \label{fig:FWHM}
+\end{figure}
+
+For understanding these results a simple model of isotropic etching may be
+considered. It is assumed that the nanorods diminish their length and radius at
+the same rate. The extinction cross section spectra is then calculated for
+several time steps using the ADDA package. The peaks extracted in the same
+way than for the experiments. The results are displayed as the red curve in Figure
+\ref{fig:plasmon_average}. The best approximation to the average is found when
+the etching rate is set to $1\,nm/min$
+
 
 Figure \ref{fig:SEM_30muM} shows three SEM images for a sample of the same
 nanorods used in the optical experiment before the etching, after $2min$
