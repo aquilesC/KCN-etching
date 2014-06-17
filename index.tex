@@ -131,14 +131,16 @@ The next set of experiments are performed in a confocal microscope for
 single-particles immobilized on a glass coverslip. Figure
 \ref{fig:plasmon_single_rod} shows the typical behavior of the plasmon of a
 single rod while immersed in $30\,\mu M$ KCN. The Figure shows the acquired
-luminescence spectra with an interval of $70\,s$ between each other while the
-inset shows the peak position (calculated by fitting the spectra with a
-lorentzian) over time. It can be seen that the plasmon red-shifts over $100\,
-nm$ ($0.25\, eV$) in $5$ minutes. The diminishing intensity is consistent with
-the volume loss given by the dissolution of gold. In this particular case only
-one rod is observed therefore having a higher temporal resolution. However the
-same trend is observed for each single nanorod analyzed under the same
-conditions.
+luminescence spectra with an interval of $70\,s$ between each other; the small
+shoulder at $650\,nm$ that can be observed for the less intense curves is due to
+the Raman scattering of water. The inset shows the peak position (calculated by
+fitting the spectra with a lorentzian) over time. It can be seen that the
+plasmon red-shifts over $100\, nm$ ($0.25\, eV$) in $5$ minutes. The diminishing
+intensity is consistent with the volume loss given by the dissolution of gold.
+In this particular case only one rod is observed therefore having a higher
+temporal resolution. However the same trend is followed by each single nanorod
+analyzed under the same conditions.
+
 
 \begin{figure}[hbt]
  \centering
@@ -193,24 +195,21 @@ for knowing that they are single particles and for possible changes in shape.
 For understanding these results a simple model of isotropic etching may be
 considered. It is assumed that the nanorods diminish their length and radius at
 the same rate. The extinction cross section spectra is then calculated for
-several time steps using the ADDA package. The peaks extracted in the same
-way than for the experiments. The results are displayed as the red curve in Figure
-\ref{fig:plasmon_average}. The best approximation to the average is found when
-the etching rate is set to $1\,nm/min$
-
+several time steps using the ADDA package. The peaks are extracted from the
+simulations in the same way than for the experiments. The results are displayed
+as the red curve in Figure \ref{fig:plasmon_average}. The best approximation to
+the average is found when the etching rate is set to $1\,nm/min$.
 
 Figure \ref{fig:SEM_30muM} shows three SEM images for a sample of the same
 nanorods used in the optical experiment before the etching, after $2min$
-submersed in KCN and after $4min$. Table \ref{tab:SEM_results} summarizes the
-averaged values found after analyzing approximately $300$ particles. It is
-possible to observe that the AuNR preserve the shape while diminishing the
-volume and increasing the aspect ratio. Nevertheless this changes are
-inside the standard distribution of each parameter. Because of how the
-experiments are performed tracking a single-particle in the SEM is not
-possible. However the broadening of the distribution is consistent with the
-optical results and can be therefore used as a reference for the average
-behavior.
-
+submersed in KCN and after $4min$. The histograms show the distribution of
+aspect ratios at the three given instants. Table \ref{tab:SEM_results}
+summarizes the averaged values found after analyzing approximately $300$
+particles. It is possible to observe that the AuNR preserve the shape while
+diminishing the volume and increasing the aspect ratio. Nevertheless this
+changes are inside the standard distribution of each parameter. However the
+small shift in the average is consistent with the optical results, yielding an
+etching rate of $0.5\,nm\min$.
 
 \begin{tabular*}{0.48\textwidth}{c c c c c}
  $\,$ & L (nm) & Sdv (nm) & R (nm) & Sdv (nm) \\\hline
@@ -221,16 +220,6 @@ behavior.
 
 \end{tabular*}
 
-
-
-To link both results it is possible to calculate the plasmon peak position
-together with the size of the particle by using the discrete dipole
-approximation. According to the observations in the SEM experiments, it
-is possible to assume an isotropic etching, i.e. both radius and length
-diminish at the same rate, and in this particular case it is at around
-$0.5\,nm/min$. In Figure \ref{fig:plasmon_average} the red line shows the
-result from the simulation. It can be seen that it falls into the distribution
-of the plasmon peak positions.
 
 \section{Conclusions}
 In this work it is shown a simple method that allows the tuning of the plasmon
