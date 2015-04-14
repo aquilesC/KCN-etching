@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Tue Apr 14 17:41:06 CEST 2015
+markTmpDer=true
+builderNum=2
+outputDir=pdf/
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=index.tex
+outputFile=KCN_paper.pdf
+langSpell=en
+markDer=true
+srcDir=
