@@ -1,4 +1,4 @@
-\documentclass[twocolumn]{article}
+\documentclass{article}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -107,62 +107,9 @@ Bulk extinction spectra of the suspension of rods used previously is acquired as
 a function of time after a solution of KCN is added into the vial. This allows
 to compare single-particle experiments with previous results. 
 
-\section{Results and discussion}
+\section{Results}
 
-Figure \ref{fig:plasmon_single_rod} shows the typical behavior of the plasmon of
-a single rod while immersed in $30\,\mu\textrm{M}$ KCN; it can be seen the
-luminescence spectra in intervals of $70\,s$ between each other; the small
-shoulder at $1.9\,\textrm{eV}$ ($650\,\textrm{nm}$) that can be observed for the
-less intense curves is due to Raman scattering of water that was not completely
-removed when subtracting the background to these curves. The inset shows the
-peak position (calculated by fitting the spectra with a lorentzian) over time.
-It can be seen that the plasmon red-shifts over $0.25\,\textrm{eV}$
-($100\,\textrm{nm}$) in $5$ minutes. It is possible to observe that the optical
-properties of the plasmon do not get dampered by studying the FWHM of the peak.
-
-Figure \ref{fig:FWHM} shows the FWHM of the plasmon as a function of plasmon
-shift for a collection of nanorods immersed in KCN. At first there is a
-rapid diminishing of the width, reaching a minumum for shifts between
-$0.15\,\textrm{eV}$ and $0.20\,\textrm{eV}$. The rapid decrease in width is
-probably due to the elimination of impurities on the surface of the
-particles, since they tend to be more reactive. The following narrowing merits
-an electronic explanation; the higher energy distance between the longitudinal
-plasmon peak and interband transitions in gold makes less efficient the damping
-mechanisms in the particles, hence yielding a narrower resonance. While the
-reaction continues, the width starts to increase; this means that the reshaping
-at some point will start having an effect on the shape of the particle. This is
-often encountered for shifts above $0.15\,textrm{eV}$, but depends on the
-particle initial size and shape. ADDA simulations allow to confirm that
-the reshaping of the particles induces a width change. 
-
-The inset in Figure \red{fig:FWHM} shows the results of the ADDA simulations
-for a $25x60$nm particle while both its axis diminish evenly. The initial width
-is $0.14\,textrm{eV}$, that is normally lower than the experimentally
-obtainable. This is due to particles not having a perfect rod shape, or defects
-in their crystalline structure. The calculated width however diminishes to
-$0.1\,\texrm{eV}$ for shifts of just under $0.2\,\textrm{eV}$ as it is observed
-experimentally. This is already showing an agreement between a model of
-isotropic etching and our experimental results, and can also be compared to the
-plasmon peak shift of different particles. 
-
-Figure \ref{fig:plasmon_average} shows the time traces of the peak positions for
-nine different rods while being etched with $30\,\mu\textrm{M}$ KCN. The pale
-lines show each individual trace, while the darker is the average.
-The error bars are the standard deviation of the distribution at each point.
-Since spectra of different particles are taken at slightly different times (one
-after the other), an interpolation with cubic splines is used for calculating
-the average and the standard deviation at the given times. The bigger time step
-between $225\,\textrm{s}$ and $340\,\textrm{s}$ is due to an automatic
-refocusing happening on the particles every $5$ minutes.
-
-The diminishing intensity is consistent
-with the volume loss given by the dissolution of gold.
-In this particular case only one rod is observed therefore having a higher
-temporal resolution. However the same trend is followed by each single nanorod
-analyzed under the same conditions.
-
-
-\begin{figure}[tp]
+\begin{figure}[p]
  \centering
  \includegraphics[width=0.95\linewidth]{plasmon_single_rod.png}
  \caption{Plasmon shift due to the etching with $30\mu M$ KCN. The time
@@ -171,10 +118,18 @@ analyzed under the same conditions.
  \label{fig:plasmon_single_rod}
 \end{figure}
 
-These results show the opposite trend than the bulk results and therefore need a
-closer study. F
+Figure \ref{fig:plasmon_single_rod} shows the typical red-shift of the
+longitudinal plasmon of a single rod while immersed in $20\,\mu\textrm{M}$ KCN.
+Each curve is the luminescence spectra of the same rod displayed at intervals of
+$70\,s$ between each other; the small shoulder at $1.9\,\textrm{eV}$
+($650\,\textrm{nm}$) that can be observed for the less intense curves is due to
+Raman scattering of water that was not completely removed when subtracting the
+background to these curves. The inset shows the peak position (calculated by
+fitting the spectra with a lorentzian) over time. The plasmon red-shifts over
+$0.25\,\textrm{eV}$ ($100\,\textrm{nm}$) in $5$ minutes. This same trend is
+observed for all the rods in the same conditions.
 
-\begin{figure}[tp]
+\begin{figure}[p]
  \centering
  \includegraphics[width=0.95\linewidth]{plasmon_average.png}
  \caption{Average plasmon shift (thick line) for 9 rods due to the etching with
@@ -184,59 +139,120 @@ closer study. F
  \label{fig:plasmon_average}
 \end{figure}
 
-This exact same trend is observed for every particle at different KCN
-concentrations. The broadening of the distribution is also observed and has to
-be attributed to intrinsic inhomogeneities in the particles since it is not
-possible to find a trend in the shift rate nor with the initial particle 
-volume nor with the initial peak position. 
-% How can this be explained????
+Figure \ref{fig:plasmon_average} shows the behaviour of the plasmon peak
+position for nine different rods while being etched with $20\,\mu\textrm{M}$
+KCN. The pale lines show each individual trace, while the darker is the average.
+The error bars are the standard deviation of the distribution at each point.
+Since spectra of different particles are taken at slightly different times (one
+after the other), an interpolation with cubic splines is used for calculating
+the average and the standard deviation at the given times. The bigger time step
+between $225\,\textrm{s}$ and $340\,\textrm{s}$ is due to an automatic
+refocusing happening on the particles every $5$ minutes. The plasmon shift of
+each particle ranges between $0.05\,\textrm{eV}$ and $0.35\,\textrm{eV}$ in over
+$9 minutes$. It is important to note that the shape of the particles is
+preserved during the experiment; the FWHM of each peak is related to the optical
+quality of the particles and therefore to their shape.
 
-One important aspect of these results is that despite the broadening in plasmon
-peak distribution over a sample the width of the plasmon peak of each individual
-rod does not increase. 
-
-\begin{figure}[tp]
+\begin{figure}[p]
  \centering
  \includegraphics[width=0.95\linewidth]{fwhm_several_in_eV.png}
- \caption{Plasmon FWHM of eight different particles immersed in $30\,\mu M$ KCN
+ \caption{Plasmon FWHM of eight different particles immersed in $20\,\mu M$ KCN
  as a function of their plasmon shift. The inset shows the results from the
  simulations carried on with the ADDA package.}
  \label{fig:FWHM}
 \end{figure}
 
-For understanding these results a simple model of isotropic etching may be
-considered. It is assumed that the nanorods diminish their length and radius at
-the same rate. The extinction cross section spectra is then calculated for
-several time steps using the ADDA package \cite{Yurkin2011}. The peaks are
-extracted from the simulations in the same way than for the experiments. The
-results are displayed as the red curve in Figure \ref{fig:plasmon_average}. The
-best approximation to the average is found when the etching rate is set to
-$1\,\textrm{nm}/min$.
 
-The optical properties of the single-particles were correlated with SEM images
-(see supporting information) of samples of the same nanorods before the etching,
-after $2\,\textrm{min}$ submersed in KCN and after $4\,\textrm{min}$. The main
-important observation is the preservation of the shape. When particles are
-isolated from each other, the model of the isotropic etching seems appropriate.
-Calculating the distribution of sizes of the particles show a slight increase in
-the aspect ratio but this is however obscured by the broad distribution of
-values (even before starting the etching). Averaging around $300$ different
-particles at each interval yields an etching constant of
-$0.5\,\textrm{nm}/\min$, consistent with the optical observations.
+Figure \ref{fig:FWHM} shows that the FWHM of the plasmon decreases while the
+shift increases. At the beginning there is a rapid diminishing of the width,
+probably due to the elimination of impurities on the surface of the particles.
+Then a minimum is reached for shifts between $0.15\,\textrm{eV}$ and
+$0.20\,\textrm{eV}$. This decrease is explainable thinking that the higher 
+energy distance between the longitudinal plasmon peak and interband transitions
+in gold makes less efficient the non radiative damping mechanisms in the
+particles, hence yielding a narrower resonance and was already observed in
+other studies\cite{Sonnichsen2002}. While the reaction continues, the width
+starts to increase; this means that the reshaping at some point will start having an
+effect on the shape of the particle. This is often encountered for shifts above
+$0.15\,textrm{eV}$, but depends on the particle initial size and shape. ADDA
+simulations allow to confirm that the reshaping of the particles induces a
+change of the width of the plasmon.
 
-As stated previously, the first experiment performed is the bulk measurement in
-a UV-VIS spectrometer. The extinction spectra of the suspension of rods as a
-function of time can be seen in Figure \ref{fig:bulk}. The main plot shows the
-spectra at intervals of of $9$ minutes after adding a solution of KCN. This
-solution is chosen as to have $50\mu\textrm{M}$ KCN in the vial where the
-suspension of AuNR is present. Since after the first $9$ minutes there is no appreciable
-change in the peak position, the same amount of KCN is added into the vial,
-yielding a concentration of $100\,\mu\textrm{M}$. This explains the sudden
-change in the time-trace depicted in the inset of the Figure. All spectra plots are
-normalized to the transverse plasmon peak at $2.4\,\textrm{eV}$ for increasing
-the visibility of the plasmon shift.
 
-\begin{figure}[tp]
+The peak positions are extracted from the simulations in the same way than for
+the experiments, by fitting with a lorentzian. Simulations are performed for an
+initial $25\times60$ nanoparticle in steps of $0.5\,\textrm{nm}$ for a total of
+$10\textrm{nm}$ (i.e. the minimum particle size is $15\textrm{nm}\times 50
+\textrm{nm}$). The results are displayed as the red curve in Figure
+\ref{fig:plasmon_average} and as the inset in Figure \ref{fig:FWHM}. The best
+approximation to the average is found when the etching rate is set to
+$1\,\textrm{nm}/min$. This can be further confirmed by SEM images of the rods.
+The study of the FWHM of the peak allows to confirm that during this process the
+optical properties of the plasmon do not get dampened.
+The red curve in the Figure is the result of the simulations that best
+fit the experimental results.
+
+
+
+
+The inset in Figure \ref{fig:FWHM} shows the results of the
+ADDA\cite{Yurkin2011} simulations for a $25x60$nm particle while both its axis
+diminish evenly. The initial FWHM is $0.14\,textrm{eV}$, slightly lower
+than the experimentally obtainable. This is due to particles not having a
+perfect rod shape, or defects in their crystalline structure. The calculated
+width however diminishes to $0.1\,\textrm{eV}$ for shifts of just under
+$0.2\,\textrm{eV}$ as it is observed experimentally. This is already showing an
+agreement between a model of isotropic etching and our experimental results, and
+can also be compared to the plasmon peak shift of different particles.
+
+
+
+Samples of the same nanorods are prepared for SEM imaging as described earlier.
+The images are acquired before the etching, after $2\,\textrm{min}$ submersed in
+KCN and after $4\,\textrm{min}$. When particles are isolated from each other,
+the model of the isotropic etching seems appropriate, as the shape is preserved.
+It has to be noted, however, that for aggregates of particles this no longer
+holds, and rods start to loose their shape (see Supporting Information for SEM
+images.) Calculating the distribution of sizes of the particles shows a slight
+increase in the aspect ratio but this is however obscured by the broad
+distribution of values (even before starting the etching). Averaging around
+$300$ different particles at each interval yields an etching constant of
+$0.5\,\textrm{nm}/\min$, consistent with the optical observations, not only of
+the plasmon shift but also of the diminishing intensity as a function of time. 
+
+It is a known result that the cross section of the particle is proportional to
+its volume. Therefore a reduction of size will yield a reduction in intensity
+as is observed in all the performed experiments and simulations. Considering an
+atomic radius of gold of $144\,\textrm{pm}$(From Wikipedia. Better source?) the
+findings show an etching rate of $6000$ atoms per second. On the other hand, a
+concentration of $30\mu M$ means that there is roughly $1$ molecule of KCN in a
+$1\,\textrm{nm}$ layer of solution around the rod. Is this diffusion limited? 
+
+The same behaviour is observed for rods immersed in different concentrations of
+KCN, a red shift that can be of up to $100\,\textrm{nm}$. However the rate at
+which the plasmon shifts is different for different particles, as can already be
+seen in Figure \ref{fig:plasmon_average}. It is expected that bigger particles
+show a slower plasmon shift since the aspect ratio changes more slowly when
+reducing the axis length. For instance, a reduction of $1\,\textrm{nm}$ for a
+particle with axis $12.5\textrm{nm}\times30\textrm{nm}$ changes the aspect ratio
+from  $2.40$ to $2.52$, while for a $25\textrm{nm}\times60\textrm{nm}$ the shift
+is to $2.46$. However there is no correlation between the initial brightness
+(proportional to the volume) and the observed rate. Different initial aspect
+ratios may also show different rates, but again no correlation is observed. This
+means that there is an intrinsic property of the particles that makes them react
+slower or faster with KCN. This is also confirmed by SEM images, since the
+distribution of longitudinal and transverse axis get broader over time.
+
+Every particle can be slightly different from another, not only because of its
+aspect ratio (and plasmon peak position) but also because of the presence of
+surface impurities. This was shown already in Figure \ref{fig:FWHM} where the
+FWHM decreases steeply at the beginning. This implies that different particles
+will have slightly different reaction rates, and moreover the effect on the
+plasmon may be greater, explaining the different shift-rates. All this
+observations at the single-particle level prove to be of fundamental importance 
+since they differ from the counterpart bulk experiments. 
+
+\begin{figure}[p]
  \centering 
  \includegraphics[width=0.95\linewidth]{plasmon_bulk.png}
  \caption{Bulk extinction spectra at $10$ minutes time-interval. The arrow
@@ -248,45 +264,77 @@ the visibility of the plasmon shift.
  \label{fig:bulk}
 \end{figure}
 
+Figure \ref{fig:bulk} shows a blue-shift of the longitudinal plasmon peak for a
+suspension of rods while being etched with KCN. The spectra is plotted at
+intervals of $9$ minutes after adding a solution of KCN. This solution is chosen
+as to have $100\mu\textrm{M}$. All spectra plots are normalized to the
+transverse plasmon peak at $2.4\,\textrm{eV}$ for increasing the visibility of
+the longitudinal plasmon shift. This results are strikingly different from the
+single-particle measurements and can be explained by the protective layer of
+CTAB present. 
+
 It can be seen that the plasmon peak position shifts towards higher energies
 (from approximately $2.0\,\textrm{eV}$ to $2.1\,\textrm{eV}$ or equivalently
 from $620\,\textrm{nm}$ to $592\,\textrm{nm}$). It means that the rods are
-reshaping into spheres as was previously observed \cite{Jana2002}. The
-asymptotic behavior of the time-trace may be due to the small amount of KCN
-added into the vial, that reacts entirely with gold therefore stopping the
-effect after a certain time.
+reshaping into spheres as was previously observed \cite{Jana2002}. This implies
+that the tips of the rods are more exposed to KCN than the sides as is expected
+from the their higher curvature. The CTAB capping is known to be more dense on
+the sides of the particles than on the tips allowing KCN molecules to reach this
+region easier. The asymptotic behavior of the time-trace is due to the small
+amount of KCN added into the vial, that reacts entirely with gold therefore
+stopping the effect after a certain time and can be resumed if added more KCN
+into the vial.
+
+The presence of the surface is another aspect that may explain the difference
+between the bulk and single-particle results. The surface would prevent the
+reaction of gold with KCN from happening on one of the sides of the rods. By
+definition this implies a non-isotropic model. On the other hand it would imply
+that the shape of the rods is not preserved since they would get flattened. If
+this would be the case, the FWHM of the rods is expected to increase and this
+work shows that it is not the case, at least for the first couple
+hundreds $\textrm{meV}$ of shift. The resolution of SEM images does not allow to
+assess this question. The overlap between simulations and experiment gives
+enough confidence in the first even if far fetched at first sight.
+
+
+
 
 \section{Conclusions}
 In this work we have shown a simple method that allows the tuning of the plasmon
-peak position of single gold nanorods with nanometer accuracy. More
-importantly, it is shown that the rodlike shape is preserved even for plasmon
-shifts of approximately $300\,\textrm{meV}$ ($80\,\textrm{nm}$) therefore
-keeping the well known properties of them.
+peak position of single gold nanorods with nanometer accuracy and over the range
+of $300\,\textrm{meV}$ ($100\,\textrm{nm}$). More importantly, it is shown that
+the rodlike shape is preserved for these shifts and therefore the well known
+optical properties of the nano particles are not dampened. 
 
-The optical experiments show the shift of the plasmon with a high time accuracy,
-allowing to stop the reaction when the peak is at the desired value. SEM images
-allow to confirm that the shape of the rods is being preserved.The agreement
-between the simulations and the experimental results not only show the link
-between both measurements but also provide a way of predicting the behaviour of
-the plasmon peak.
+Th experiments allow to acquire plasmon peak with high time and spectral
+accuracy, allowing to stop the reaction when the peak is at the desired value.
+Both SEM images and the study of the FWHM of the longitudinal resonance allow to
+confirm that the shape of the rods is being preserved. The agreement between the
+simulations assuming an isotropic etching and the experimental results not only
+show the link between both measurements but also provide a way of predicting the
+behaviour of the plasmon peak. 
 
-However, it is also found a great distribution width of the rate at which the
-plasmon peak shifts for different particles under the same experimental
-conditions. This can be explained only considering that there is an intrinsic
-difference between particles; this differences can be attributed to defects on
-the particle surface or to inhomogeneities in the left over CTAB capping the
-rods even if care is taken to remove it by rinsing with water. Different initial
-conditions (such as initial aspect ratio or volume) were considered but no
-correlation with the rate of the shift is observed.
+It is also found a great distribution of the rate at which the plasmon peak
+shifts for different particles under the same experimental conditions. This can
+be explained only considering that there is an intrinsic difference between
+particles; this differences can be attributed to defects on the particle surface
+or to inhomogeneities in the left over CTAB capping the rods even if care is
+taken to remove it by rinsing with water. Different initial conditions (such as
+initial aspect ratio or volume) are considered but no correlation with the rate
+of the shift is observed. This doesn't discard any relationship between them as
+there can be an interwined dependence on both initial size and aspect ratio.
+Experiments on larger ensembles of particles would increase the possibility of
+finding more nanorods with the same initial conditions. 
 
 Combining this results with the catalytic properties of gold and the presence of
 the plasmon resonance opens the door for fine-controlling chemical reactions
-while irradiating the particles with specific wavelengths. On the other hand
-this same technique can be used for detecting the presence of KCN in a
-solution. This result was already reported by Wei et Al. in 2012 \cite{Wei2012}
-in a slightly different condition. We believe that the sensitivity of single
-particles to very low concentrations (in the order or below the pM) should be
-higher.
+while irradiating the particles with specific wavelengths. Using a molecule with
+a lower reactivity with gold allows to compare the difference of reaction rates
+while exciting or not the longitudinal plasmon. On the other hand this same
+technique can be used for detecting the presence of KCN in a solution. This
+result was already reported by Wei et Al. in 2012 \cite{Wei2012} in a slightly
+different condition. We believe that the sensitivity of single particles to very
+low concentrations (in the order or below the nM) should be higher. 
 
 \bibliography{bibliography}{}
 \bibliographystyle{ieeetr}
