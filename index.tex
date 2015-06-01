@@ -119,49 +119,15 @@ to compare single-particle experiments with previous results.
 \end{figure}
 
 Figure \ref{fig:plasmon_single_rod} shows the typical red-shift of the
-longitudinal plasmon of a single rod while immersed in $30\,\mu\textrm{M}$ KCN.
+longitudinal plasmon of a single rod while immersed in $20\,\mu\textrm{M}$ KCN.
 Each curve is the luminescence spectra of the same rod displayed at intervals of
 $70\,s$ between each other; the small shoulder at $1.9\,\textrm{eV}$
 ($650\,\textrm{nm}$) that can be observed for the less intense curves is due to
 Raman scattering of water that was not completely removed when subtracting the
 background to these curves. The inset shows the peak position (calculated by
 fitting the spectra with a lorentzian) over time. The plasmon red-shifts over
-$0.25\,\textrm{eV}$ ($100\,\textrm{nm}$) in $5$ minutes. The study of the FWHM
-of the peak allows to confirm that during this process the optical properties
-of the plasmon do not get dampened.
-
-\begin{figure}[p]
- \centering
- \includegraphics[width=0.95\linewidth]{fwhm_several_in_eV.png}
- \caption{Plasmon FWHM of eight different particles immersed in $30\,\mu M$ KCN
- as a function of their plasmon shift. The inset shows the results from the
- simulations carried on with the ADDA package.}
- \label{fig:FWHM}
-\end{figure}
-
-Figure \ref{fig:FWHM} shows that the FWHM of the plasmon decreases while the
-shift increases. At the beginning there is a rapid diminishing of the width,
-probably due to the elimination of impurities on the surface of the particles.
-Then a minimum is reached for shifts between $0.15\,\textrm{eV}$ and
-$0.20\,\textrm{eV}$. This decrease merits an electronic explanation: the higher
-energy distance between the longitudinal plasmon peak and interband transitions
-in gold makes less efficient the damping mechanisms in the particles, hence
-yielding a narrower resonance. While the reaction continues, the width starts to
-increase; this means that the reshaping at some point will start having an
-effect on the shape of the particle. This is often encountered for shifts above
-$0.15\,textrm{eV}$, but depends on the particle initial size and shape. ADDA
-simulations allow to confirm that the reshaping of the particles induces a
-change of the width of the plasmon.
-
-The inset in Figure \ref{fig:FWHM} shows the results of the
-ADDA\cite{Yurkin2011} simulations for a $25x60$nm particle while both its axis
-diminish evenly. The initial FWHM is $0.14\,textrm{eV}$, slightly lower
-than the experimentally obtainable. This is due to particles not having a
-perfect rod shape, or defects in their crystalline structure. The calculated
-width however diminishes to $0.1\,\textrm{eV}$ for shifts of just under
-$0.2\,\textrm{eV}$ as it is observed experimentally. This is already showing an
-agreement between a model of isotropic etching and our experimental results, and
-can also be compared to the plasmon peak shift of different particles.
+$0.25\,\textrm{eV}$ ($100\,\textrm{nm}$) in $5$ minutes. This same trend is
+observed for all the rods in the same conditions.
 
 \begin{figure}[p]
  \centering
@@ -173,27 +139,73 @@ can also be compared to the plasmon peak shift of different particles.
  \label{fig:plasmon_average}
 \end{figure}
 
-Figure \ref{fig:plasmon_average} shows the red-shifts of the order of
-$100\,\textrm{nm}$ of the peak positions for nine different rods while being
-etched with $30\,\mu\textrm{M}$ KCN. The pale lines show each individual trace,
-while the darker is the average. The error bars are the standard deviation of
-the distribution at each point. Since spectra of different particles are taken
-at slightly different times (one after the other), an interpolation with cubic
-splines is used for calculating the average and the standard deviation at the
-given times. The bigger time step between $225\,\textrm{s}$ and
-$340\,\textrm{s}$ is due to an automatic refocusing happening on the particles
-every $5$ minutes. The red curve in the Figure is the result of the simulations
-that best fit the experimental results.
+Figure \ref{fig:plasmon_average} shows the behaviour of the plasmon peak
+position for nine different rods while being etched with $20\,\mu\textrm{M}$
+KCN. The pale lines show each individual trace, while the darker is the average.
+The error bars are the standard deviation of the distribution at each point.
+Since spectra of different particles are taken at slightly different times (one
+after the other), an interpolation with cubic splines is used for calculating
+the average and the standard deviation at the given times. The bigger time step
+between $225\,\textrm{s}$ and $340\,\textrm{s}$ is due to an automatic
+refocusing happening on the particles every $5$ minutes. The plasmon shift of
+each particle ranges between $0.05\,\textrm{eV}$ and $0.35\,\textrm{eV}$ in over
+$9 minutes$. It is important to note that the shape of the particles is
+preserved during the experiment; the FWHM of each peak is related to the optical
+quality of the particles and therefore to their shape.
 
-The peak positions are extracted from the simulations in the same way
-than for the experiments, by fitting with a lorentzian. Simulations are
-performed for an initial $25\times60$ nanoparticle in steps of
-$0.5\,\textrm{nm}$ for a total of $10\textrm{nm}$ (i.e. the minimum particle
-size is $15\textrm{nm}\times 50 \textrm{nm}$). The results are displayed as the
-red curve in Figure \ref{fig:plasmon_average} and as the inset in Figure
-\ref{fig:FWHM}. The best approximation to the average is found when the etching
-rate is set to $1\,\textrm{nm}/min$. This can be further confirmed by SEM images
-of the rods. 
+\begin{figure}[p]
+ \centering
+ \includegraphics[width=0.95\linewidth]{fwhm_several_in_eV.png}
+ \caption{Plasmon FWHM of eight different particles immersed in $20\,\mu M$ KCN
+ as a function of their plasmon shift. The inset shows the results from the
+ simulations carried on with the ADDA package.}
+ \label{fig:FWHM}
+\end{figure}
+
+
+Figure \ref{fig:FWHM} shows that the FWHM of the plasmon decreases while the
+shift increases. At the beginning there is a rapid diminishing of the width,
+probably due to the elimination of impurities on the surface of the particles.
+Then a minimum is reached for shifts between $0.15\,\textrm{eV}$ and
+$0.20\,\textrm{eV}$. This decrease is explainable thinking that the higher 
+energy distance between the longitudinal plasmon peak and interband transitions
+in gold makes less efficient the non radiative damping mechanisms in the
+particles, hence yielding a narrower resonance and was already observed in
+other studies\cite{Sonnichsen2002}. While the reaction continues, the width
+starts to increase; this means that the reshaping at some point will start having an
+effect on the shape of the particle. This is often encountered for shifts above
+$0.15\,textrm{eV}$, but depends on the particle initial size and shape. ADDA
+simulations allow to confirm that the reshaping of the particles induces a
+change of the width of the plasmon.
+
+
+The peak positions are extracted from the simulations in the same way than for
+the experiments, by fitting with a lorentzian. Simulations are performed for an
+initial $25\times60$ nanoparticle in steps of $0.5\,\textrm{nm}$ for a total of
+$10\textrm{nm}$ (i.e. the minimum particle size is $15\textrm{nm}\times 50
+\textrm{nm}$). The results are displayed as the red curve in Figure
+\ref{fig:plasmon_average} and as the inset in Figure \ref{fig:FWHM}. The best
+approximation to the average is found when the etching rate is set to
+$1\,\textrm{nm}/min$. This can be further confirmed by SEM images of the rods.
+The study of the FWHM of the peak allows to confirm that during this process the
+optical properties of the plasmon do not get dampened.
+The red curve in the Figure is the result of the simulations that best
+fit the experimental results.
+
+
+
+
+The inset in Figure \ref{fig:FWHM} shows the results of the
+ADDA\cite{Yurkin2011} simulations for a $25x60$nm particle while both its axis
+diminish evenly. The initial FWHM is $0.14\,textrm{eV}$, slightly lower
+than the experimentally obtainable. This is due to particles not having a
+perfect rod shape, or defects in their crystalline structure. The calculated
+width however diminishes to $0.1\,\textrm{eV}$ for shifts of just under
+$0.2\,\textrm{eV}$ as it is observed experimentally. This is already showing an
+agreement between a model of isotropic etching and our experimental results, and
+can also be compared to the plasmon peak shift of different particles.
+
+
 
 Samples of the same nanorods are prepared for SEM imaging as described earlier.
 The images are acquired before the etching, after $2\,\textrm{min}$ submersed in
