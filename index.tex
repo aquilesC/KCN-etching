@@ -127,7 +127,7 @@ Raman scattering of water that was not completely removed when subtracting the
 background to these curves. The inset shows the peak position (calculated by
 fitting the spectra with a lorentzian) over time. The plasmon red-shifts over
 $0.25\,\textrm{eV}$ ($100\,\textrm{nm}$) in $5$ minutes. This same trend is
-observed for all the rods in the same conditions.
+observed for all the rods in similar conditions.
 
 \begin{figure}[p]
  \centering
@@ -149,7 +149,24 @@ the average and the standard deviation at the given times. The bigger time step
 between $225\,\textrm{s}$ and $340\,\textrm{s}$ is due to an automatic
 refocusing happening on the particles every $5$ minutes. The plasmon shift of
 each particle ranges between $0.05\,\textrm{eV}$ and $0.35\,\textrm{eV}$ in over
-$9 minutes$. It is important to note that the shape of the particles is
+$9 minutes$. 
+
+Simulations are performed using the discrete dipole approximation with the ADDA
+package\cite{Yurkin2011}. The initial dimensions are
+$25\textrm{nm}\times60\textrm{nm}$ which coincide with the median dimensions of
+the distribution of sizes of the nanoparticles. The simulations are carried on
+in steps of $0.5\,\textrm{nm}$ for a total of $10\textrm{nm}$ (i.e. the minimum
+particle size is $15\textrm{nm}\times 50 \textrm{nm}$). The results are
+displayed as the red curve in Figure \ref{fig:plasmon_average}. The best
+approximation to the average is found when the etching rate is set to
+$1\,\textrm{nm}/min$. This can be further confirmed by SEM images of the rods.
+
+The study of the FWHM of the peak allows to confirm that during this process the
+optical properties of the plasmon do not get dampened.
+The red curve in the Figure is the result of the simulations that best fit the
+experimental results.
+
+It is important to note that the shape of the particles is
 preserved during the experiment; the FWHM of each peak is related to the optical
 quality of the particles and therefore to their shape.
 
@@ -161,7 +178,6 @@ quality of the particles and therefore to their shape.
  simulations carried on with the ADDA package.}
  \label{fig:FWHM}
 \end{figure}
-
 
 Figure \ref{fig:FWHM} shows that the FWHM of the plasmon decreases while the
 shift increases. At the beginning there is a rapid diminishing of the width,
@@ -179,18 +195,7 @@ simulations allow to confirm that the reshaping of the particles induces a
 change of the width of the plasmon.
 
 
-The peak positions are extracted from the simulations in the same way than for
-the experiments, by fitting with a lorentzian. Simulations are performed for an
-initial $25\times60$ nanoparticle in steps of $0.5\,\textrm{nm}$ for a total of
-$10\textrm{nm}$ (i.e. the minimum particle size is $15\textrm{nm}\times 50
-\textrm{nm}$). The results are displayed as the red curve in Figure
-\ref{fig:plasmon_average} and as the inset in Figure \ref{fig:FWHM}. The best
-approximation to the average is found when the etching rate is set to
-$1\,\textrm{nm}/min$. This can be further confirmed by SEM images of the rods.
-The study of the FWHM of the peak allows to confirm that during this process the
-optical properties of the plasmon do not get dampened.
-The red curve in the Figure is the result of the simulations that best
-fit the experimental results.
+
 
 
 
