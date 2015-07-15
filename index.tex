@@ -7,7 +7,7 @@
 \usepackage{setspace}
 \onehalfspacing
 \epstopdfsetup{update} % only regenerate pdf files when eps file is newer
-\title{Tuning plasmon of gold nanorods by KCN etching}
+\title{In situ tuning of nanorod’s plasmon through etching with KCN}
 \author{Aquiles Carattino \and Saumya Khatua \and Michel
 Orrit}
 
@@ -16,6 +16,67 @@ Orrit}
 \abstract{This is the abstract}
 
 \section{Introduction}
+Collective oscillations of conduction electrons in gold nanoparticles, also
+known as surface plasmons, present great opportunities in (bio-) sensing,
+enhanced spectroscopies, photothermal therapy, and guiding light below the
+diffraction limit of light (add references for each application). Success in
+many of these applications requires precise and in situ control over
+nanoparticle’s plasmon resonance energy. For example, maximum fluoresecnce or
+Raman enhancement is achieved when the nanoparticle’s plasmon resonnace is tuned
+to excitation laser wavelength (ref) or efficient photothermal therapy requires
+nanoparticle’s SPR to be tuned to NIR to minimize the damage of healthy cells
+(ref). 
+
+Typically, SPR is tuned by carefully manipulating the shapes of nanoparticles
+during their synthesis. Particularly, useful are the rod-shaped particles, whose
+resonance can be tuned from 600 nm to over 1000 nm by changing its aspect ratios
+through carefully adjusting the concentrations of gold-seed, and silver nitrate
+during a seed-mediated growth synthesis method. Many other nanoparticles shapes,
+such as nanoprism, nanorice, nanocubes, nanoshells, etc have been synthesized
+with plasmon their plasmon resonances covering entire visible to near-IR
+spectral range. Wet-chemical synthesis methods, however, generally yield a broad
+distribution in nanoparticles’ size and/or shapes, which hinders precise and
+reproducible tuning of nanoparticles’ SPR.  Furthermore, these methods do not
+provide any in situ adjustment of SPR, and any change of which requires an
+entirely new synthesis.
+
+Recently, new methods have been developed to tune nanoparticles’ SPR after their
+synthesis. These approaches can be divided in to two broad categories: ($1$)
+First category of methods tune the refractive index of the medium using electric
+or magnetic field (look for references with liquid crystal, insulator conductor
+transition, oxidation reduction etc). The advantage of these methods is that the
+SPR shift is reproducible. However, tuning range is rather limited and also
+continuous tuning within this range is difficult to achieve. (2) The other set
+of approaches rely on nanoparticles shape modification controlably tune the
+nanoparticle’s shape for plasmon resonce tuning through chemical or physical
+means. For example, thermal reshaping was induced by illuminating the
+nanoparticles with an intense, pulsed \cite{Link2000}\cite{Horiguchi2008} or
+continuous laser (Mustafa’s NL paper 2012). Is there any study on pressure
+induced changes? I think I have seen some studies. Please look. Reshaping is
+also possible through chemical means, which are based on etching of gold atoms
+from the nanoparticles. Some examples include, studies [Yuan2015]
+[Carbo\s\do5(A)rgibay2007] [Rodriguez\s\do5(F)ernandez2005] [Jana2002]. Give an
+overview of various chemicals used so far: H2O2 iron chloride, previous studies
+on cyanide? All these previous experiments were done in bulk solution of gold
+nanorods, which also contained large concentration of surfactants to prevent
+nanoparticles from aggregating and always yielded a blue-shift of plasmon
+resonance. The blue-shift was rationalized from preferred etching of the tips
+than sides because of less density of the surfactant on the tips.
+
+Here we present a new approach for precise and in situ tuning of plasmon
+resonances of single gold nanorods isolated and immobilized over a glass
+surface. A nanorod’s plasmon resonance is tuned over 100 nm (starting from xx nm
+up to xx nm) with a precision of xx nm. Our method exploits well known chemistry
+between gold and potassium cyanide (KCN), to controllably etch gold atoms from
+the nanoparticle and thereby changing its aspect ratio. We note that unlike many
+of the previous studies, here we observe a red-shift of SPR on gold nanorods.
+Our simulations based on discrete dipole approximation method attributes this
+red-shift to symmetric etching of gold nanorods from all sides resulting in
+overall increase of aspect ratio. This is in contrary to previous studies, where
+the etching was preferred at the tips, resulting in an overall decrease of
+aspect ratios. The symmetric etching of gold nanorods is also verified from
+scanning electron microscopy (SEM) images.
+
 Gold nanoparticles exhibit enhanced absoprtion and scattering cross sections
 ranging from the visible to the near infra red. This property is closely related
 to the surface plasmon (i.e. a collective oscilation of conduction electrons)
@@ -103,6 +164,35 @@ thousand molecules of KCN have to react with the nanoparticle in order to have
 an observable change in the plasmon position.
 
 \section{Experimental method}
+\begin{figure}[p]
+ \centering
+ \includegraphics[width=0.95\linewidth]{Figures/Setup/setup_1.png}
+ \caption{Schematic of the setup employed for acquiring luminescence spectra of
+ singe gold nanorods. The column of the right depicts a typical
+ 2-dimensional raster scan and the luminescence spectra of a single rod.}
+ \label{fig:setup}
+\end{figure}
+
+Gold nanorods were synthesized by following standard seed-growth method (ref).
+The average size of the nanorods was xx nm x xx nm and their SPR is located at
+xx nm in water (SI figs: SEM image and bulk extinction of nanorods as
+synthesized).
+
+For single-particle spectroscopy, gold nanorods were isolated on a clean glass
+coverslip through spin coating. The samples were then washed thoroughly with
+MilliQ water to remove the CTAB. The etching experiment was done in a flow cell
+with KCN concentrations ranging from $3\mu\textrm{M}$ to $80\mu\textrm{M}$.
+
+Single particle measurements were done on a home built confocal microscope
+(Figure \ref{fig:setup}). A $532$ nm laser was used for exciting the particles.
+The excitation power was 300 μW (huge power!!! Please confirm) at the back focal plane of the
+objective. A high NA objective (Olympus 60X NA 1.4 Oil immersion) was used for
+excitation and collection of the luminescence signal. The luminescence signal
+was then filtered with a 532 nm notch filter and was detected by either an
+avalanche photodiode or a liquid nitrogen cooled CCD-spectrometer (Acton 500i).
+The images were acquired by scanning the sample across a tightly focused laser
+beam using a XYZ piezo scanning stage.
+
 The luminescence spectra of single gold nanorods (AuNR) is acquired in a home
 built confocal microscope using an Acton 500i Spectrometer. A $532\,\textrm{nm}$
 laser is used for exciting the particles with a power in the back focal plane of
