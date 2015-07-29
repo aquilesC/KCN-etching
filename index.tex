@@ -6,6 +6,7 @@
 \usepackage{epstopdf}
 \usepackage{setspace}
 \usepackage{authblk}
+\usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1.5in,footskip=.25in]{geometry}
 \onehalfspacing
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
@@ -13,7 +14,7 @@
 \newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
 \newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
 \epstopdfsetup{update} % only regenerate pdf files when eps file is newer
-\title{In situ tuning of nanorods' plasmon through etching with KCN}
+\title{In situ tuning of nanorods' plasmon through oxidative etching with KCN}
 %\author{Aquiles Carattino \and Saumya Khatua \and Michel
 %Orrit}
 \author[1]{Aquiles Carattino}
@@ -43,22 +44,23 @@ particles.
 The surface plasmon presents great opportunities in (bio-)
 sensing\cite{Zijlstra2012}, enhanced spectroscopies\cite{Sivapalan2013},
 photothermal therapy\cite{Zhao2014}, and concentrating light below the
-diffraction limit. Success in many of these applications requires precise and in
-situ control over the nanoparticles' plasmon resonance energy. For example,
-maximum fluorescence or Raman enhancement is achieved when the nanoparticle's
-plasmon resonance is tuned to excitation laser wavelength or efficient
-photothermal therapy requires nanoparticles' SPR to be tuned to NIR to minimize
-the damage to healthy cells.
+diffraction limit\cite{Zijlstra2011}. Success in many of these applications
+requires precise and in situ control over the nanoparticles' plasmon resonance
+energy. For example, maximum fluorescence\cite{Khatua2014} or Raman
+enhancement\cite{McFarland2005} is achieved when the nanoparticle's plasmon
+resonance is tuned to excitation laser wavelength or efficient photothermal
+therapy requires nanoparticles' SPR to be tuned to NIR to minimize the damage to
+healthy cells\cite{Alkilany2012}.
 
 Typically, SPR is tuned by carefully manipulating the shapes of nanoparticles
 during their synthesis. Particularly useful are the rod-shaped particles, whose
 resonance can be tuned from $600\nm$ to over $1000\nm$ by changing their aspect
 ratios through carefully adjusting the concentrations of gold-seed and silver
-nitrate during the seed-mediated growth synthesis method. Many other
-nanoparticles shapes, such as nanoprisms, nanorice, nanocubes, nanoshells, etc.
+nitrate during the seed-mediated growth synthesis method\cite{Vigderman2012}.
+Many other nanoparticles shapes, such as nanoprisms, nanorice, nanocubes, nanoshells, etc.
 have been synthesized with their plasmon resonances covering entirely the
-spectral range from visible to near-IR. Wet-chemical synthesis methods, however,
-generally yield a broad distribution in nanoparticles sizes and/or shapes, which
+spectral range from visible to near-IR\cite{West2003}. Wet-chemical synthesis
+methods, however, generally yield a broad distribution in nanoparticles sizes and/or shapes, which
 hinders precise and reproducible tuning of nanoparticles SPR. Furthermore these
 methods do not provide any in-situ adjustment of SPR; any change of which would
 require a new synthesis.
@@ -66,24 +68,25 @@ require a new synthesis.
 Recently, new methods have been developed to tune nanoparticles' SPR after their
 synthesis. These approaches can be divided into two broad categories: ($1$) The
 first group of methods tune the refractive index of the medium using an electric
-or magnetic field. The advantage of these methods is that the SPR shift is
-reproducible and reversible. However the tuning range is rather limited and the
-continuous tuning within this range is difficult to achieve. ($2$) The other set
-of approaches rely on controllably inducing shape modifications of the
-nanoparticles to tune the plasmon resonance through chemical or physical means.
-For example, thermal reshaping was induced by illuminating the nanoparticles
-with an intense, pulsed \cite{Link2000}\cite{Horiguchi2008} or continuous laser.
+or magnetic field\cite{Kossyrev2005}. The advantage of these methods is that the
+SPR shift is reproducible and reversible. However the tuning range is rather
+limited and the continuous tuning within this range is difficult to achieve.
+($2$) The other set of approaches rely on controllably inducing shape
+modifications of the nanoparticles to tune the plasmon resonance through
+chemical or physical means. For example, thermal reshaping was induced by
+illuminating the nanoparticles with an intense, pulsed
+\cite{Link2000}\cite{Horiguchi2008} or continuous laser\cite{Yorulmaz2012}.
 Chemical reshaping is also possible and was also the focus of several
 studies\cite{Yuan2015} \cite{Carbo-Argibay2007} \cite{Rodriguez-Fernandez2005}
 \cite{Jana2002}. In all these works a particular interest was put into the
 surfactant employed to avoid the aggregation of the particles. The coating of
 the surface will modify the heat transfer from gold to the medium (for the
 thermal reshaping) and will cause that the reactivity of the sides and tips of
-the particles to be different (for the chemical reshaping). This automatically
-leads to an anisotropic reshaping, shortening the long axis or softening any
-high-curvature region. Moreover, all the cited experiments were performed in 
-bulk samples of nanorods in suspension. Single-particle experiments are however
-scarce.
+the particles to be different (for the chemical reshaping).
+This automatically leads to an anisotropic reshaping, shortening the long axis
+or softening any high-curvature region. Moreover, all the cited experiments were
+performed in bulk samples of nanorods in suspension. Single-particle experiments
+are however scarce.
 
 Another group has studied how the chemical reactivity of gold \cite{Ni2012} can
 be altered by exploiting the plasmon resonance. This is achieved mainly through
@@ -194,15 +197,15 @@ an observable change in the plasmon position.
 
 \section{Experimental method}
 \begin{figure}[p]
- \centering \includegraphics[width=0.95\linewidth]{Figures/01_Setup/setup_1.png}
- \caption{Schematic of the setup employed for acquiring luminescence spectra of
- singe gold nanorods. A) Schematic of the confocal microscope employed during
- the measurements. B) A typical 2-dimensional raster scan of the sample and C)
- luminescence spectrum of a single rod.}
+ \centering \includegraphics[width=0.45\linewidth]{Figures/01_Setup/setup_1.png}
+ \caption{Experimental setup and examples of the observations. A) Simplified
+ schematic of the confocal microscope employed during the measurements. B) A
+ typical 1-photon luminescence raster scan of the sample immersed in
+ water, before etching and C) luminescence spectrum of a single rod.}
  \label{fig:setup}
 \end{figure}
 
-Gold nanorods were synthesized by following standard seed-growth method (ref).
+Gold nanorods were synthesized by following standard seed-growth method\cite{Nikoobakht2003}.
 The average size of the nanorods was $60\nm\times 25\nm$ and their SPR is
 located at $650\nm$ in water (SI figs: SEM image and bulk extinction of
 nanorods as synthesized).
@@ -212,17 +215,17 @@ Single-particle measurements were done on a home-built confocal microscope
 The excitation power was $300\uW$ at the back focal plane of the objective
 (Olympus $60\times$, $\textrm{NA}\,0.9$ air). The luminescence signal was then
 filtered with two $532\nm$ notch filters and was detected by either an avalanche
-photodiode or a liquid nitrogen-cooled CCD-spectrometer (Acton 500i).
+photodiode or a liquid nitrogen-cooled CCD-spectrometer (Acton $500\textrm{i}$).
 The images were acquired by scanning the sample across a tightly focused laser
-beam using a XYZ piezo scanning stage.
+beam using a XYZ piezo scanning stage (PI Nano Cube).
 
 The samples were prepared by spin casting a suspension of AuNR on clean
 coverslips and thoroughly rinsing them  with Milli-Q water and placed in an
 ozone cleaner for eliminating the excess of CTAB. Afterwards the samples are
 placed in a flow-cell; the initial spectra is taken with the rods immersed in
 Milli-Q water (see for example Figure \ref{fig:setup}.c). This initial
-characterization allows us to discard clusters of rods. Next, a solution of KCN
-was flowed into the cell with concentrations ranging from $3\uM$ to $80\uM$. In each
+characterization allows us to discard clusters of rods\cite{Funston2009}. Next,
+a solution of KCN was flowed into the cell with concentrations ranging from $3\uM$ to $80\uM$. In each
 case the spectra of approximately $10$ different particles are acquired
 consecutively after focusing on each one. The time resolution varies according
 to the exposure time and number of particles; in this work a spectra of each
@@ -249,9 +252,9 @@ Figure \ref{fig:setup}.b shows a typical one-photon-excited luminescence image
 of gold nanorods isolated on glass surface and covered with water.
 Approximately, $90\%$ of the diffraction-limited bright spots originate from
 single gold nanorods. This was confirmed by acquiring their luminescence
-spectra, which show narrow Lorentzian lineshapes (ref). Figure \ref{fig:setup}.c
-depicts a typical one-photon excited luminescence spectrum of a single gold
-nanorod.
+spectra, which show narrow Lorentzian lineshapes\cite{Funston2009}. Figure
+\ref{fig:setup}.c depicts a typical one-photon excited luminescence spectrum of
+a single gold nanorod.
 
 \begin{figure}[p]
  \centering 
@@ -270,37 +273,37 @@ Figure \ref{fig:plasmon_single_rod}.a shows the one-photon luminescence spectra
 of a gold nanorod immersed in $20\uM$ KCN at intervals of $70\,\text{s}$. We
 clearly observe a gradual red-shift of the nanorod’s plasmon resonance by
 $100\nm$ over a time interval of $300\,\text{s}$. This red-shift is also
-associated with a decrease of intensity by factor of $4$. A more detailed
-analysis shows that the nanorod’s plasmon resonance position (calculated from
-fitting with a lorentzian function) varies almost linearly with respect to time
-(inset of Figure \ref{fig:plasmon_single_rod}.a) We note the presence of an
-additional shoulder peak at $650\nm$ ($1.9\,\eV$) that can be
-observed for the less intense curves and is due to Raman scattering of water
-that could not be completely removed when subtracting the background (see SI for
-the spectra of the background).
+associated with a decrease of photoluminescence intensity by factor of $4$. A
+more detailed analysis shows that the nanorod’s plasmon resonance wavelength
+(calculated from fitting with a lorentzian function) varies almost linearly with
+respect to time (inset of Figure \ref{fig:plasmon_single_rod}.a) We note the
+presence of an additional shoulder peak at $650\nm$ ($1.9\,\eV$) which is more
+prominent for the less intense curves and is due to Raman scattering of
+water\cite{Snow1985} that could not be completely removed when subtracting the
+background (see SI for the spectra of the background). 
 
-We find the same trend for all the nanorods that were studied. Our results
-are summarized in \ref{fig:plasmon_single_rod}.b, which shows the shift of
-plasmon resonance wavelengths as a function of time for nine different rods (the
-dashed lines). Each nanorod shows a shift of the plasmon resonance wavelength,
+We find the same trend for all the nanorods that were studied. Our results are
+summarized in \ref{fig:plasmon_single_rod}.b, which shows the shift of plasmon
+resonance wavelengths as a function of time for nine different rods (the dashed
+lines). Each nanorod shows a red-shift of the plasmon resonance wavelength,
 which varies almost linearly with time irrespective of their initial resonance
 energy. The rate of SPR shift, however, varies significantly from particle to
 particle with the fastest one being $15\nm/\textrm{minute}$ to the slowest one
-of $2\nm/\textrm{minute}$. The red curve in the Figure is the average of all the
-shifts; since the spectra of each particle were acquired at different instants,
-we used a cubic spline for interpolating the values of the shift at given times.
+of $2\nm/\textrm{minute}$. The green curve in Figure
+\ref{fig:plasmon_single_rod}.b is the average of all the shifts; since the
+spectra of each particle were acquired sequentially, we interpolated the values
+of the shift at given times with a cubic spline.
 
-The chemistry between gold and potassium cyanide is well known and well
-understood; it is used not only in the nano-industry but also at bigger scales,
-for instance for gold mining. Gold reacts with aqueous KCN in presence
-oxygen to form $\textrm{Au(CN)}_2^-$, which is soluble in water. The reaction
-can be written as follows
+The chemistry between gold and potassium cyanide is well known and is being used
+for gold mining, electroplating, organic synthesis, etc. Gold reacts with
+aqueous KCN in presence oxygen to form $\textrm{Au(CN)}_2^-$, which is soluble
+in water. The reaction can be written as follows
 \begin{equation*}
 4\textrm{Au} + 8\textrm{KCN}^-+\textrm{O}_2 + 2\textrm{H}_2\textrm{O}
 \leftrightarrows 4K\textrm{Au(CN)}_2^-+4\textrm{KOH}^-
 \end{equation*}
 In our experiment formation of $\textrm{Au(CN)}_2^-$ will result in etching of the gold
-atoms from the nanorods, as has been reported previously.  
+atoms from the nanorods, as has been reported previously\cite{Jana2002}.  
 
 The etching of gold atoms from a nanorod has two effects: Firstly, the nanorod’s
 volume will decrease gradually with longer reaction time. This is consistent
@@ -308,31 +311,32 @@ with our observation that the one-photon-luminescence intensity decreases with
 time. Secondly, the aspect ratio of a nanorod can either decrease or increase
 depending on the preferred direction of etching. Nanorods’ aspect ratio will
 decrease with time when the reaction happens preferably from the tips. This is
-indeed the case for nanorods protected with CTAB and dispersed in solution. CTAB
-binds weakly to the tips compared to the sides and therefore leaves the tips
-more susceptible for chemical reactions (ref). The consequent decrease of aspect
-ratio yields a blue shift of plasmon resonance (ref). In a second case, etching happens
+indeed the case for nanorods protected with CTAB and dispersed in
+solution\cite{Jana2002}. CTAB binds weakly to the tips compared to the sides and
+therefore leaves the tips more susceptible for chemical
+reactions\cite{Caswell2003}. The consequent decrease of aspect ratio yields a
+blue shift of plasmon resonance\cite{Link1999}. In a second case, etching happens
 isotropically from all sides and tips resulting in an overall increase of the
 nanorod's aspect ratio. This is the more likely scenario in our experiment as
-the nanorods’ surface does not have any protective CTAB.
+the nanorods’ surface does not have any protective CTAB bi-layer.
 
 Numerical simulations based on the discrete dipole approximation model were
 performed to further confirm that the red shift of plasmon resonance is indeed
 due to isotropic etching of the nanorods. The initial dimensions of the
-particles are fixed at $25\nm\times60\nm$ which coincide with
-the median dimensions of the distribution of sizes of the nanoparticles (see
-SI). These simulations are carried out in steps of $0.5\nm$ for a total
-of $10\nm$ (i.e. the minimum particle size is $15\nm\times 50
-\nm$). Figure \ref{fig:simulations}.a shows the scattering cross section
-of the particle at different etching intervals. The observable red shift is
-comparable to the experimental one. The insets of the figure show the decrease
-of the scattering peak value as well as the detailed time-evolution obtained
-from the fitting of the peaks with a lorentzian function. Both are compatible
-with the experimental observations. Furthermore it is possible to fix the
-etching rate to best approximate the average plasmon shift. These results are
-displayed as the green curve in Figure \ref{fig:plasmon_single_rod}.b. The best
-approximation to the average is found when the etching rate is set to
-$1\nm/\textrm{min}$. 
+particles were fixed at $25\nm\times60\nm$ which coincided with the median
+dimensions of the distribution of sizes of the nanoparticles (see SI). These
+simulations are carried out in steps of $0.5\nm$ for a total of $10\nm$ (i.e.
+the minimum particle size is $15\nm\times 50 \nm$). Figure
+\ref{fig:simulations}.a shows the scattering spectra of the particle at
+different etching intervals. We clearly observe a red-shift of the plasmon
+resonance wavelength, as was observed in our experiment. The insets of the
+figure show the decrease of the integrated scattering spectrum as a function of
+the etching and the detailed time-evolution of the SPR obtained from the fitting
+of the peaks with a lorentzian function. Both are compatible with the
+experimental observations. Furthermore it is possible to fix the etching rate to
+best approximate the average plasmon shift. These results are displayed as the
+red curve in Figure \ref{fig:plasmon_single_rod}.b. The best approximation to
+the average is found when the etching rate is set to $1\nm/\textrm{min}$.
 
 \begin{figure}[p]
  \centering
@@ -408,19 +412,19 @@ will have a role in the rate at which the plasmon peak shifts.
  \includegraphics[width=0.95\linewidth]{Figures/03_Shifts/shifts.png}
  \caption{A) Plasmon FWHM of eight different particles immersed in $20\,\mu M$
  KCN as a function of their plasmon shift. The inset shows the results from the
- simulations carried on with the ADDA package. B) SPR Shift as a function of
+ simulations carried out with the ADDA package. B) SPR Shift as a function of
  time for particles with the same initial SPR at different KCN concentrations.
  The inset shows the shift rate of these same particles.}
  \label{fig:FWHM}
 \end{figure}
 
 Figure \ref{fig:FWHM}.a shows how the FWHM of the plasmon decreases while the
-shift increases. Mind the units of the plot, since it is not trivial the use of
+shift increases. Note the units of the plot, since it is not trivial the use of
 wavelengths for the FWHM, we show these results in energy scale. At the
 beginning of the reaction there is a rapid diminishing of the width, probably
 due to the elimination of defects from the surface of the particles. Then a
 minimum is reached for shifts between $75\nm$ and
-$100\nm$. This decrease is explainable thinking that the higher
+$100\nm$. This decrease is explainable considering that the higher
 energy distance between the longitudinal plasmon peak and interband transitions
 in gold makes less efficient the non radiative damping mechanisms in the
 particles, hence yielding a narrower resonance as was already observed in other
