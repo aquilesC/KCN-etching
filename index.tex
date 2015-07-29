@@ -8,21 +8,19 @@
 \usepackage{authblk}
 \usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1.5in,footskip=.25in]{geometry}
 \onehalfspacing
+
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
 \newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
 \newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
 \newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
-\epstopdfsetup{update} % only regenerate pdf files when eps file is newer
+
 \title{In situ tuning of nanorods' plasmon through oxidative etching with KCN}
-%\author{Aquiles Carattino \and Saumya Khatua \and Michel
-%Orrit}
 \author[1]{Aquiles Carattino}
 \author[2]{Saumyakanti Khatua}
 \author[1]{Michel Orrit}
 \affil[1]{Leiden Institute of Physics, Leiden, The Netherlands}
 \affil[2]{Indian Institute of Technology- Gandhinagar, Ahmedabad,  India}
-%\affil[3]{Leiden Institute of Physics, Leiden, The Netherlands}
 %\ead{Corresponding Author Email Address}
 %\cortext[a]{khatuask@iitgn.ac.in, Orrit@physics.leidenuniv.nl }
 \begin{document}
@@ -57,13 +55,13 @@ during their synthesis. Particularly useful are the rod-shaped particles, whose
 resonance can be tuned from $600\nm$ to over $1000\nm$ by changing their aspect
 ratios through carefully adjusting the concentrations of gold-seed and silver
 nitrate during the seed-mediated growth synthesis method\cite{Vigderman2012}.
-Many other nanoparticles shapes, such as nanoprisms, nanorice, nanocubes, nanoshells, etc.
-have been synthesized with their plasmon resonances covering entirely the
-spectral range from visible to near-IR\cite{West2003}. Wet-chemical synthesis
-methods, however, generally yield a broad distribution in nanoparticles sizes and/or shapes, which
-hinders precise and reproducible tuning of nanoparticles SPR. Furthermore these
-methods do not provide any in-situ adjustment of SPR; any change of which would
-require a new synthesis.
+Many other nanoparticles shapes, such as nanoprisms, nanorice, nanocubes,
+nanoshells, etc. have been synthesized with their plasmon resonances covering
+entirely the spectral range from visible to near-IR\cite{West2003}. Wet-chemical
+synthesis methods, however, generally yield a broad distribution in
+nanoparticles sizes and/or shapes, which hinders precise and reproducible tuning
+of nanoparticles SPR. Furthermore these methods do not provide any in-situ
+adjustment of SPR; any change of which would require a new synthesis.
 
 Recently, new methods have been developed to tune nanoparticles' SPR after their
 synthesis. These approaches can be divided into two broad categories: ($1$) The
@@ -76,31 +74,32 @@ modifications of the nanoparticles to tune the plasmon resonance through
 chemical or physical means. For example, thermal reshaping was induced by
 illuminating the nanoparticles with an intense, pulsed
 \cite{Link2000}\cite{Horiguchi2008} or continuous laser\cite{Yorulmaz2012}.
-Chemical reshaping is also possible and was also the focus of several
-studies\cite{Yuan2015} \cite{Carbo-Argibay2007} \cite{Rodriguez-Fernandez2005}
-\cite{Jana2002}. In all these works a particular interest was put into the
-surfactant employed to avoid the aggregation of the particles. The coating of
-the surface will modify the heat transfer from gold to the medium (for the
-thermal reshaping) and will cause that the reactivity of the sides and tips of
-the particles to be different (for the chemical reshaping).
-This automatically leads to an anisotropic reshaping, shortening the long axis
-or softening any high-curvature region. Moreover, all the cited experiments were
-performed in bulk samples of nanorods in suspension. Single-particle experiments
-are however scarce.
+Increasing the particles' temperature therefore leads to change in shape,
+favoring those conformations with a lower surface energy (i.e.
+spheres over rods, etc.). Chemical reshaping is also possible and was the focus
+of several studies\cite{Carbo-Argibay2007}
+\cite{Rodriguez-Fernandez2005} \cite{Jana2002}. In those cases, the capping
+agent will induce different reactivities on the sides than on the tips of the
+particles; because of a higher curvature\cite{Yuan2015} the the tips are
+normally more susceptible to chemical reactions, leading to an anisotropic reshaping
+shortening the long axis or softening any high-curvature region. In both cases
+(laser or chemical induced reshaping) the outcome is a blue-shift of the surface
+resonance peak.
 
-Another group has studied how the chemical reactivity of gold \cite{Ni2012} can
-be altered by exploiting the plasmon resonance. This is achieved mainly through
-changes in the surrounding temperature; it has to be noted that in these
-experiments the surfactant was present as for the bulk experiments. In another
-work\cite{Tsung2006}, high resolution TEM images allowed to show that the
-crystal structure of individual particles is preserved after oxidation inducing
-a shortening of the long axis of over $10\nm$. A common trend in the
-vast majority of these works is that nanorods tend to reshape into spheres,
-giving rise to a blue shift of the longitudinal plasmon resonance.
+% The chemical reshaping is normally performed in bulk, with the nanoparticles
+% dispersed in solution. Another group has studied how the chemical reactivity of
+% gold \cite{Ni2012} can be altered by exploiting the plasmon resonance. This is
+% achieved mainly through changes in the surrounding temperature; it has to be
+% noted that in these experiments the surfactant was present as for the bulk
+% experiments. In another work\cite{Tsung2006}, high resolution TEM images allowed
+% to show that the crystal structure of individual particles is preserved after
+% oxidation inducing a shortening of the long axis of over $10\nm$. A common trend
+% in the vast majority of these works is that nanorods tend to reshape into
+% spheres, giving rise to a blue shift of the longitudinal plasmon resonance.
 
-Here we present a new approach for precise and in situ tuning of plasmon
+Here we present a new approach for precise and in-situ tuning of plasmon
 resonances of single gold nanorods isolated and immobilized over a glass
-surface. A nanorod's plasmon resonance is tuned over $100\nm$ (starting from
+surface. A nanorod's plasmon resonance is tuned over $130\nm$ (starting from
 $650\nm$ up to $780\nm$). Our method exploits well known chemistry between gold
 and potassium cyanide (KCN), to controllably etch gold atoms from the
 nanoparticle and thereby change its aspect ratio. We note that unlike many of
@@ -112,88 +111,12 @@ the etching was preferred at the tips, resulting in an overall decrease of
 aspect ratios. The symmetric etching of gold nanorods is also verified from
 scanning electron microscopy (SEM) images.
 
-Our experiments are new in performing both single-particle studies while
-removing the surfactant from the equation. Controlling the concentration of KCN
-allows to fine tune the plasmon peak position of individual particles, without
-hindering the known optical properties of them. Moreover we show that only a few
-thousand molecules of KCN have to react with the nanoparticle in order to cause
-an observable change in the plasmon position.
-
-%Give an overview of various
-%chemicals used so far: H2O2 iron chloride, previous studies on cyanide? All
-%these previous experiments were done in bulk solution of gold nanorods, which
-%also contained large concentration of surfactants to prevent nanoparticles from
-%aggregating and always yielded a blue-shift of plasmon resonance. The
-%% blue-shift was rationalized from preferred etching of the tips than sides
-%% because of less
-%density of the surfactant on the tips.
-
-
-%Many experiments that span from biosensing \cite{Zijlstra2012} to photodynamic
-%therapy \cite{Zhao2014} and plasmon-enhanced spectroscopies
-%% \cite{Sivapalan2013} highly depend on the position of the plasmon resonance.
-%% Usually this is done at
-%the moment of synthesis \cite{Gou2005}, by controlling the concentrations of
-%growth and seed solutions. In this way is possible to induce the formation of
-%longer or shorter particles \cite{Nikoobakht2003}. This methods however, always
-%present a dispersion in the size distribution of the outcome, hindering the
-%repeatability and the ability to build larger, periodic structures. Often an
-%after-synthesis procedure is needed to achieve the needed parameters.
-
-%Tuning the plasmon peak position after the synthesis has been object of several
-%studies in the past. One of the possibilities is to achieve thermal reshaping
-%that can be induced by illuminating the nanoparticles with an intense, pulsed
-%laser\cite{Link2000}\cite{Horiguchi2008}. Chemical reshaping is also possible
-%and was also the focus of several studies\cite{Yuan2015}
-%\cite{Carbo-Argibay2007} \cite{Rodriguez-Fernandez2005} \cite{Jana2002}. In all
-%these works a particular interest was put into the surfactant employed to avoid
-%the aggregation of the particles. The coating of the surface will modify the
-%heat transfer from gold to the medium (for the thermal reshaping) and will
-%% cause that the reactivity of the sides and tips of the particles to be
-%% different (for
-%the chemical reshaping). This automatically leads to an anisotropic reshaping,
-%shortening the long axis or softening any high-curvature region. Moreover, all
-%the cited experiments are performed bulk samples of nanorods in suspension.
-%Single-particle experiments are however scarce.
-
-
-%The abundance of works in these topic is a good indication of the importance of
-%having methods for altering the nanoparticle shape (and therefore their plasmon
-%resonance) after the synthesis. It can also be stated that the next logical
-%% step into the characterization of these methods are the single-particle
-%% studies and
-%the removal of the surfactant from the process. In this work we propose a
-%chemical etching strategy that allows the in-\textit{situ} control of the
-%plasmon resonance of single gold nanorods immobilized on a glass surface.
-
-%We employ KCN as an etching agent; a known and well understood compound that is
-%used not only in the nano-industry but also at bigger scales, for instance for
-%gold mining. It's overall reaction formula is:
-%\begin{equation*}
-%4\textrm{Au} + 8\textrm{KCN}^-+\textrm{O}_2 + 2\textrm{H}_2\textrm{O}
-%\leftrightarrows 4K\textrm{Au(CN)}_2^-+4\textrm{KOH}^-
-%\end{equation*}
-%In bulk this compound was used for reducing the aspect ratio of rods, i.e.
-%blue shifting their plasmon \cite{Jana2002}. In a more recent paper it was also
-%used for generating highly spherical particles with a narrow size
-%distribution \cite{Lee2013}. 
-
-% In our single-particle experiments of the AuNR show that by this reaction, it is
-% possible to red-shift the plasmon resonance peak in more than
-% $300\,\textrm{meV}$ (roughly $100\nm$ for particles starting with a
-% SRP at $650\,\nm$) without degrading the shape or the optical properties
-% of the nanorods, i.e. the rods preserve the rod-like geometry during the process
-% and the FWHM of the peak follows the expected behaviour.
-% 
-% The preservation of the shape of the particles is confirmed by tracking the
-% luminescence spectra of individual rods over time while the reactions is
-% happening as well as by acquiring SEM images of the particles at defined
-% intervals of the process. A simple model where etching is considered as being
-% isotropic and constant (i.e. both the radius of the particle and it's length
-% diminish at the same rate over time), yields a good agreement with both the
-% plasmon shift and the changes observed in the FWHM. 
-% 
-
+% Our experiments are new in performing both single-particle studies while
+% removing the surfactant from the equation. Controlling the concentration of KCN
+% allows to fine tune the plasmon peak position of individual particles, without
+% hindering the known optical properties of them. Moreover we show that only a few
+% thousand molecules of KCN have to react with the nanoparticle in order to cause
+% an observable change in the plasmon position.
 
 \section{Experimental method}
 \begin{figure}[p]
@@ -230,21 +153,6 @@ case the spectra of approximately $10$ different particles are acquired
 consecutively after focusing on each one. The time resolution varies according
 to the exposure time and number of particles; in this work a spectra of each
 particle is taken at least every minute.
-
-% For confirming the preservation of the shape of the particles after the
-% dissolution in KCN, SEM images are acquired. The samples are prepared by letting
-% a droplet of a suspension of AuNR dry on top of a silicon wafer and then
-% thoroughly rinsing them with Milli-Q water for eliminating the excess of CTAB.
-% The same samples are employed for taking images before and after immersing the
-% particles in $30\mu\textrm{M}$ KCN. For the analysis only the rods separated
-% from each other are considered as to reproduce the conditions found in the
-% optical experiment. After immersing the samples in KCN for a given period of
-% time, they are rinsed with water to stop the reaction and dried with a nitrogen
-% flow.
-% 
-% Bulk extinction spectra of the suspension of rods used previously is acquired as
-% a function of time after a solution of KCN is added into the vial. This allows
-% to compare single-particle experiments with previous results. 
 
 \section{Results}
 
@@ -350,7 +258,7 @@ the average is found when the etching rate is set to $1\nm/\textrm{min}$.
  \label{fig:simulations}
 \end{figure}
 
-Furthemore the simulations allow to study the different shift rates that were
+Furthermore the simulations allow to study the different shift rates that were
 present in the experimental results. Figure \label{fig:simulations}.b shows the
 different shift rates as functions of the initial volume of the particles. The
 shift rate is defined through a linear fit of the plasmon shift as a function of
@@ -364,48 +272,6 @@ simulation step is clearly increasing more rapidly conform the etching
 progresses. The simulations therefore prove that both the initial volume and SPR
 will have a role in the rate at which the plasmon peak shifts. 
 
-% \begin{figure}[p]
-%  \centering
-%  \includegraphics[width=0.95\linewidth]{plasmon_average.png}
-%  \caption{Average plasmon shift (thick line) for 9 rods due to the etching with
-%  $20\mu M$ KCN. The light curves are individual time traces while the thick one
-%  is the average. The error bars are simply the standard deviation at each point. Over
-%  time the peak distribution gets broader.}
-%  \label{fig:plasmon_average}
-% \end{figure}
-
-
-% Figure \ref{fig:plasmon_average} shows the behaviour of the plasmon peak
-% position for nine different rods while being etched with $20\,\mu\textrm{M}$
-% KCN. The pale lines show each individual trace, while the darker is the average.
-% The error bars are the standard deviation of the distribution at each point.
-% Since spectra of different particles are taken at slightly different times (one
-% after the other), an interpolation with cubic splines is used for calculating
-% the average and the standard deviation at the given times. The bigger time step
-% between $225\,\textrm{s}$ and $340\,\textrm{s}$ is due to an automatic
-% refocusing happening on the particles every $5$ minutes. The plasmon shift of
-% each particle ranges between $0.05\,\textrm{eV}$ and $0.35\,\textrm{eV}$ in over
-% $9$ minutes. The dispersion of the rate change can be attributed to different
-% initial aspect ratios. 
-
-% \begin{figure}[p]
-%  \centering
-%  \includegraphics[width=0.95\linewidth]{shift_rate_vs_spr.png}
-%  \caption{Different peak position shift rates as a function of initial plasmon
-%  peak position.}
-%  \label{fig:shift-vs-spr}
-% \end{figure}
-% 
-% Figure \ref{fig:shift-vs-spr} shows the plasmon shift rate as a function of the
-% initial plasmon peak position while immersed in $20\,\mu\textrm{M}$ KCN. The
-% shift rate is extracted by a linear fit of the curves in Figure
-% \ref{fig:plasmon_average}. The Figure shows a clear trend in which particles
-% with lower aspect ratios (higher resonance energies) have a slower shift rate.
-% The proposed model of isotropic etching fits this scenario, since particles
-% closer to spheres change their aspect ratio much slower while reducing their
-% axes at the same rate. Extracting the FWHM of each peak allows to determine that
-% the optical and geometrical quality of the particles are being preserved during
-% the experiment. 
 
 \begin{figure}[p]
  \centering
@@ -418,43 +284,31 @@ will have a role in the rate at which the plasmon peak shifts.
  \label{fig:FWHM}
 \end{figure}
 
-Figure \ref{fig:FWHM}.a shows how the FWHM of the plasmon decreases while the
-shift increases. Note the units of the plot, since it is not trivial the use of
-wavelengths for the FWHM, we show these results in energy scale. At the
-beginning of the reaction there is a rapid diminishing of the width, probably
-due to the elimination of defects from the surface of the particles. Then a
-minimum is reached for shifts between $75\nm$ and
-$100\nm$. This decrease is explainable considering that the higher
-energy distance between the longitudinal plasmon peak and interband transitions
-in gold makes less efficient the non radiative damping mechanisms in the
-particles, hence yielding a narrower resonance as was already observed in other
-studies\cite{Sonnichsen2002}. While the reaction continues, the width starts to
+Figure \ref{fig:FWHM}.a shows how the FWHM of the plasmon peak decreases while
+the shift increases for several nanorods immersed in $20\uM$ KCN. Note the units
+of the plot, since it is not trivial the use of wavelengths for the FWHM, we
+show these results in energy scale. At the beginning of the reaction there is a
+rapid diminishing of the width, probably due to the elimination of defects from
+the surface of the particles. Then a minimum is reached for shifts between
+$75\nm$ and $100\nm$.  While the reaction continues, the width starts to
 increase; this means that the reshaping at some point will start having an
 effect on the shape of the particle and because of the reduction in particle
 volume, other dephasing effects may start being relevant (for instance, surface
-scattering). This is often encountered for shifts above $100\nm$, but
-depends on the particle initial size and shape. The inset of the Figure shows
-the FWHM obtained from the simulations. It is remarkable how similar the
-simulations are to the experimental values.
+scattering). This is often encountered for shifts above $100\nm$, but depends on
+the particle initial size and shape. The inset of the Figure shows the FWHM
+obtained from the simulations for a $25\nm\times60\nm$ nanorod. The width
+decreases with the shift slightly slower than in the experiment but the trend is
+similar to the observed. 
 
-
-% The inset in Figure \ref{fig:FWHM} shows the results of the
-% ADDA\cite{Yurkin2011} simulations for a $25x60$nm particle while both its axis
-% diminish evenly. The initial FWHM is $0.14\,\textrm{eV}$, slightly lower than
-% the experimentally obtainable. This is due to particles not having a perfect rod
-% shape or because of defects on their surface. The calculated width however
-% diminishes to $0.1\,\textrm{eV}$ for shifts of just under $0.2\,\textrm{eV}$ as
-% it is observed experimentally. This two results already show an agreement
-% between a model of isotropic etching and our experimental results, and can be
-% further confirmed by SEM images of the rods at different stages of the process.
-
-% It is a known result that the cross section of the particle is proportional to
-% its volume. Therefore a reduction of size will yield a reduction in intensity as
-% is observed in all the performed experiments and simulations. Considering an
-% atomic radius of gold of $144\,\textrm{pm}$(From Wikipedia. Better source?) the
-% findings show an average etching rate of $1500$ atoms per second. The same trend 
-% can also be observed for different concentrations of KCN, and therefore the
-% number of reacting atoms per unit of time can also be changed.
+The observed and simulated decrease of width can be explained considering that
+both the radiative and non-radiative damping decrease during the etching
+process. The radiation damping scales as the volume of the
+particle\cite{Wokaun1982} and therefore will decrease while the cyanide etches
+gold atoms from the particle. On the other hand, we observe that the energy
+distance between the longitudinal plasmon peak and interband transitions in gold
+increase during the etching process. Therefore the non-radiative damping
+mechanisms in the particle become less efficient\cite{Sonnichsen2002}. Both
+effects combined explain the fast diminishing in plasmon width that is observed.
 
 Figure \ref{fig:FWHM}.b shows the plasmon peak shift as a function of time
 for various KCN concentrations for particles with a plasmon peak position of
@@ -515,77 +369,6 @@ done in Ref \cite{Ni2012} but without the capping agent would involve in
 addition the use of microfluidics and therefore are much harder to perform.
 
 
-%The same behaviour is observed for rods immersed in different concentrations of
-%KCN, a red shift that can be of up to $100\,\textrm{nm}$. However the rate at
-%which the plasmon shifts is different for different particles, as can already
-%% be seen in Figure \ref{fig:plasmon_average}. It is expected that bigger
-%% particles
-%show a slower plasmon shift since the aspect ratio changes more slowly when
-%reducing the axis length. For instance, a reduction of $1\,\textrm{nm}$ for a
-%particle with axis $12.5\textrm{nm}\times30\textrm{nm}$ changes the aspect
-%% ratio from  $2.40$ to $2.52$, while for a $25\textrm{nm}\times60\textrm{nm}$
-%% the shift
-%is to $2.46$. However there is no correlation between the initial brightness
-%(proportional to the volume) and the observed rate. Different initial aspect
-%ratios may also show different rates, but again no correlation is observed.
-%% This means that there is an intrinsic property of the particles that makes
-%% them react
-%slower or faster with KCN. This is also confirmed by SEM images, since the
-%distribution of longitudinal and transverse axis get broader over time.
-
-
-%This can be further confirmed by SEM images of the rods.
-
-%The study of the FWHM of the peak allows to confirm that during this process
-% the optical properties of the plasmon do not get dampened.
-%The red curve in the Figure is the result of the simulations that best fit the
-%experimental results.
-
-% \begin{figure}[p]
-%  \centering
-%  \includegraphics[width=0.95\linewidth]{Figures/shift_different_concentrations.png}
-%  \caption{Plasmon shift of particles with a similar SPR peak at different
-%  concentrations of KCN as a function of time.}
-%  \label{fig:FWHM}
-% \end{figure}
-% 
-% \begin{figure}[p]
-%  \centering
-%  \includegraphics[width=0.95\linewidth]{Figures/shift_rate_vs_spr.png}
-%  \caption{Plasmon shift rate of particles with different initial plasmon peak
-%  positions when immersed in $20\mu M$ KCN.}
-%  \label{fig:FWHM}
-% \end{figure}
-
-% \begin{figure}[p]
-%  \centering 
-%  \includegraphics[width=0.95\linewidth]{Figures/plasmon_bulk.png}
-%  \caption{Bulk extinction spectra at $10$ minutes time-interval. The arrow
-%  indicates the time evolution. A solution of KCN is added into the cuvette with
-%  the nanorod suspension as to have a $50\,\mu M$ concentration for the first 9
-%  minutes; then this step is repeated, yielding a final KCN concentration of
-%  $100\, \mu M$. The inset shows the peak position of the SPR position as a
-%  function of time, extracted by fitting the spectra with a lorentzian.  }
-%  \label{fig:bulk}
-% \end{figure}
-% 
-% Figure \ref{fig:bulk} shows a blue-shift of the longitudinal plasmon peak for a
-% suspension of rods while being etched with KCN; these results were already
-% reported in several works and under different
-% conditions\cite{Rodriguez-Fernandez2005}\cite{Tsung2006}\cite{Jana2002}. The
-% spectra is plotted at intervals of $9$ minutes after adding a solution of KCN
-% that results in a concentration of $100\mu\textrm{M}$ in the vial. All spectra
-% plots are normalized to the transverse plasmon peak at $2.4\,\textrm{eV}$ for increasing
-% the visibility of the longitudinal plasmon shift. These results are strikingly
-% different from the single-particle measurements and can be explained by the
-% protective bilayer of CTAB present.
-% 
-% The plasmon peak position shifts towards higher energies (from approximately
-% $2.0\,\textrm{eV}$ to $2.1\,\textrm{eV}$ or equivalently from $620\,\textrm{nm}$
-% to $592\,\textrm{nm}$). It means that the rods are reshaping into spheres as was
-% previously observed \cite{Jana2002}. This implies that the tips of the rods are
-% more exposed to KCN than the sides as is expected from the their higher
-% curvature\cite{Yuan2015}. 
 \section{Conclusions}
 In this work we have shown a simple method that allows the tuning of the plasmon
 peak position of single gold nanorods with nanometer accuracy and over the range
@@ -614,16 +397,6 @@ etched. The majority of the rods present in the samples studied belong to an
 intermediate position, with their resonance at $650\nm$ (aspect ratio
 of $2.4$). The simulations agree with this statement, however experimental date
 to further confirm this hypothesis is needed. 
-
-% only considering that there is an intrinsic difference between particles; this
-% differences can be attributed to defects on the particle surface or to
-% inhomogeneities in the left over CTAB capping the rods even if care is taken to
-% remove it by rinsing with water. Different initial conditions (such as initial
-% aspect ratio or volume) are considered but no correlation with the rate of the
-% shift is observed. This doesn't discard any relationship between them as there
-% can be an interwined dependence on both initial size and aspect ratio.
-% Experiments on larger ensembles of particles would increase the possibility of
-% finding more nanorods with the same initial conditions.
 
 The role of the capping agent has largely been studied and has always been held
 responsible for the observations both in chemical etching\cite{Yuan2015} and for
