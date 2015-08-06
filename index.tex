@@ -1,14 +1,15 @@
-\documentclass{article}
+\documentclass[a4paper,oneside,onecolumn]{article}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{subfigure}
-\usepackage{epstopdf}
+%\usepackage{epstopdf}
 \usepackage{setspace}
+\onehalfspace
 \usepackage{authblk}
-\usepackage[a4paper,left=1in,right=1in,top=1in,bottom=1.5in,footskip=.25in]{geometry}
-\onehalfspacing
+\usepackage[margin=2.3cm]{geometry}
 
+%\geometry{a4paper,left=2.3cm,right=2.3cm,top=2.5cm,bottom=4.5cm}
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
 \newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
@@ -23,6 +24,7 @@
 \affil[2]{Indian Institute of Technology- Gandhinagar, Ahmedabad,  India}
 %\ead{Corresponding Author Email Address}
 %\cortext[a]{khatuask@iitgn.ac.in, Orrit@physics.leidenuniv.nl }
+
 \begin{document}
 
 \maketitle
@@ -130,8 +132,9 @@ scanning electron microscopy (SEM) images.
 
 Gold nanorods were synthesized by following standard seed-growth
 method\cite{Nikoobakht2003}. The average size of the nanorods was $60\nm\times
-25\nm$ and their SPR is located at $650\nm$ in water (SI figs: SEM image and
-bulk extinction of nanorods as synthesized).
+25\nm$ and their SPR is located at $650\nm$ in water (refer to the
+supplementary material for the SEM image and bulk extinction of nanorods as
+synthesized).
 
 Single-particle measurements were done on a home-built confocal microscope
 (Figure \ref{fig:setup}). A $532\nm$ laser was used for exciting the particles.
@@ -146,7 +149,7 @@ The samples were prepared by spin casting a suspension of AuNR on clean
 coverslips and thoroughly rinsing them  with Milli-Q water and placed in an
 ozone cleaner for eliminating the excess of CTAB. Afterwards the samples are
 placed in a flow-cell; the initial spectra is taken with the rods immersed in
-Milli-Q water (see for example Figure \ref{fig:setup}.c). This initial
+Milli-Q water (see for example Figure \ref{fig:setup}c). This initial
 characterization allows us to discard clusters of rods\cite{Funston2009}.
 Next, a solution of KCN was flowed into the cell with concentrations ranging
 from $3\uM$ to $80\uM$. In each case the spectra of approximately $10$
@@ -257,15 +260,17 @@ the average is found when the etching rate is set to $1\nm/\textrm{min}$.
 \end{figure}
 
 Furthermore the simulations allow to study the different shift rates that were
-present in the experimental results. Figure \label{fig:simulations}b shows the
-different shift rates as functions of the initial plasmon resonance of the
-particles. The shift rate is defined through a linear fit of the plasmon shift
-as a function of the amount of etching. The size of the markers of each
-particle denote their volume. In this way it is possible to observe that
+present in the experimental results. Figure \ref{fig:simulations}b shows the
+different shift rates as functions of the initial plasmon resonance of different
+particles. In this case the sizes ranged from $45\nm\times25\nm$ to
+$90\nm\times37\nm$. The shift rate is defined through a linear fit of the
+plasmon shift as a function of the amount of etching. The size of the markers of
+each particle denote their volume (the smallest being $1.8\cdot10^4\nm^3$ and
+the largest $8.4\cdot10^4\nm^3$. In this way it is possible to observe that
 particles with the same (or similar) volume, have faster shift rates if their
-initial aspect ratio is larger (i.e. the SPR is red-shifted.) On the other
-hand, particles with a similar initial resonance, show a faster shift if they
-are smaller.
+initial aspect ratio is larger (i.e. the SPR is red-shifted.) On the other hand,
+particles with a similar initial resonance, show a faster shift if they are
+smaller. 
 
 
 \begin{figure}[p]
@@ -315,16 +320,16 @@ proportional to the concentration of KCN. This result is also shown in the
 inset, where the shift rate is defined as previously and plotted as a function
 of the concentration of KCN.
 
-From these results estimating the atomic radius of gold to be $zzzz \nm$ and
-adapting the etching model we can estimate the volume, and therefore the
-amount of gold atoms, etched per unit of time. For a KCN concentration of
-$10\uM$ estimate that the reaction rate can be as low as $700$ atoms per
-second. In the experiments performed at $3\uM$ concentration, the particles
-chosen didn't have a plasmon close to $630\nm$ and therefore are not shown in
-the figure; however if the extrapolation still holds true for this low
-concentrations it would yield a rate of just $200$ atoms per second. Inverting
-the relationship, the plasmon peak shift while gold reacts with KCN happens at
-a rate of roughly $0.5\cdot 10^{-6}\,\textrm{eV}/\textrm{atom}$.
+From these results it is possible to estimate that for a KCN concentration of
+$10\uM$ the reaction rate can be as low as $700$ atoms per second. We assume an
+atomic radius of gold of $144\,\textrm{pm}$\cite{Pauling1947} and use the
+etching simulations to calculate the volume etched away from the particle. In the experiments performed
+at $3\uM$ concentration, the particles chosen didn't have a plasmon close to
+$630\nm$ and therefore are not shown in the figure; however if the extrapolation
+still holds true for this low concentrations it would yield a rate of just $200$
+atoms per second. Inverting the relationship, the plasmon peak shift while gold
+reacts with KCN happens at a rate of roughly $0.2\cdot
+10^{-3}\,\textrm{nm}/\textrm{atom}$.
 
 % Every particle can be slightly different from another, not only because of its
 % aspect ratio (and plasmon peak position) but also because of the presence of
