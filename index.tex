@@ -3,7 +3,7 @@
 %Copyright The Royal Society of Chemistry 2014
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[twoside,twocolumn,9pt]{article}
+\documentclass[twoside,twocolumn,11pt]{article}
 \usepackage{extsizes}
 \usepackage[super,sort&compress,comma]{natbib} 
 \usepackage[version=3]{mhchem}
@@ -27,7 +27,7 @@
 \usepackage{setspace}
 \usepackage[compact]{titlesec}
 %%%Please don't disable any packages in the preamble, as this may cause the template to display incorrectly.%%%
-
+\linespread{2}
 
 \usepackage{epstopdf}%This line makes .eps figures into .pdf - please comment out if not required.
 
@@ -43,6 +43,7 @@
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
 \newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
 \newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
+\newcommand{\mW}{\ensuremath{\,\textrm{mW}}}
 \newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
 
 \begin{document}
@@ -211,19 +212,19 @@ shapes, hindering precise and reproducible experiments that need a particular
 resonance. Furthermore, these methods do not provide any \textit{in situ}
 adjustment of the SPR, any change of which requires a new synthesis.
 
-{{\color{red} For the past decade, single-particle experiments have provided
-insight into processes that would have been averaged out in bulk experiments.
-For instance, pump and probe experiments on single-particles avoid the inclusion
-of assumptions regarding size distributions of the
-sample\cite{Hartland2006}\cite{Ruijgrok2012c}. Non linear processes as second
-(or third) harmonic generation can be studied when the particles'
-plasmon is well characterized and single-particle experiments allow to overcome
-the inhomogeneous broadening of a sample in
+For the past decade, single-particle experiments have provided insight into
+processes that would have been averaged out in bulk experiments.
+For instance, pump and probe experiments on single particles avoid assumptions
+regarding size distributions of the
+sample\cite{Hartland2006}\cite{Ruijgrok2012c}. Nonlinear processes such as
+second (or third) harmonic generation can be studied when the particles' plasmon is
+well characterized and single-particle experiments allow to overcome the
+inhomogeneous broadening of a sample in
 suspension\cite{Butet2010}\cite{Lippitz2005}. Enhanced spectroscopies normally
 rely on well defined structures fixed on a substrate\cite{Olk2008}.
-Most of these experiments will benefit from techniques that allow to \textit{in
-situ} tune the plasmon resonance and geometry of specific particles once they
-are immobilized on a substrate and optically characterized.}.}
+Most of these experiments will benefit from techniques that allow to tune \textit{in
+situ} the plasmon resonance and geometry of specific particles once they
+are immobilized on a substrate and optically characterized.
 
 Recently, new methods have been developed to tune nanoparticles' SPR after their
 synthesis. These approaches can be divided into two broad categories: ($1$) The
@@ -239,8 +240,8 @@ continuous laser\cite{Yorulmaz2012}. Increasing the particles' temperature
 therefore leads to changes in shape, favoring those conformations with a lower
 surface energy (i.e. spheres over rods, etc.). Chemical reshaping is also
 possible and was the focus of several
-studies\cite{Carbo-Argibay2007,Rodriguez-Fernandez2005,Jana2002}. In those
-cases, the capping agent will induce different reactivities on the sides than on
+studies\cite{Carbo-Argibay2007,Rodriguez-Fernandez2005,Jana2002,Tsung2006,Ni2008}.
+In those cases, the capping agent will induce different reactivities on the sides than on
 the tips of the particles; because of a higher curvature\cite{Yuan2015} the tips
 are normally more susceptible to chemical reactions, leading to an anisotropic
 reshaping shortening the long axis or softening any high-curvature region. Both
@@ -263,7 +264,8 @@ resulting in an increase of aspect ratio.
 \section{Experimental method}
 
 \begin{figure}[htp]
- \centering \includegraphics[width=0.45\linewidth]{Figures/01_Setup/setup_1.png}
+ \centering
+ \includegraphics[width=0.40\textwidth]{Figures/01_Setup/setup_1.png}
  \caption{Experimental setup and examples of observations. a) Simplified
  schematic of the confocal microscope employed during the measurements. b) A
  typical 1-photon luminescence raster scan of the sample immersed in
@@ -272,17 +274,21 @@ resulting in an increase of aspect ratio.
 \end{figure}
 
 Gold nanorods were synthesized by following standard seeded-growth
-methods\cite{Nikoobakht2003}. The average size of the nanorods was $50\nm\times
-25\nm$ and their SPR is located at $650\nm$ in water (refer to the
+method\cite{Nikoobakht2003}. The average size of nanorods was $50\nm\times
+25\nm$ and their SPR is located at $620\nm$ in water (refer to the
 Supplementary Information for SEM images and bulk extinction spectra of nanorods
 as synthesized).
 
 Single-particle measurements were done on a home-built confocal microscope
-(Figure \ref{fig:setup}a). A $532\nm$ laser was used for exciting the
-particles. The excitation power was $300\uW$ at the back aperture of the
-objective (Olympus $60\times$, $\textrm{NA}\,0.9$ air). The luminescence signal
-was then filtered with two $532\nm$ notch filters and was detected by either an
-avalanche photodiode or a liquid-nitrogen-cooled CCD-spectrometer (Acton
+(Figure \ref{fig:setup}a). A $532\nm$ laser was used for exciting the particles.
+The excitation power was $300\uW$ at the back aperture of the objective (Olympus
+$60\times$, $\textrm{NA}\,0.9$ air). Since the laser employed is not in
+resonance with the longitudinal plasmon, the power dissipated by the particles
+is not high enough as for showing thermal reshaping. After several minutes of
+irradiation the plasmon position didn't show any shift. Typical powers needed
+for reshaping are in the range $1-5\mW$\cite{Yorulmaz2012}. The luminescence
+signal was filtered with two $532\nm$ notch filters and was detected by either
+an avalanche photodiode or a liquid-nitrogen-cooled CCD-spectrometer (Acton
 $500\textrm{i}$). The images were acquired by scanning the sample across the
 tightly focused laser beam using a XYZ piezo scanning stage (PI Nano Cube).
 Figure \ref{fig:setup}b shows a typical result from a raster scan. Each bright
@@ -291,16 +297,19 @@ spot corresponds to a single nanoparticle.
 Samples were prepared by spin-casting a suspension of AuNR on clean coverslips.
 Afterwards the slides were thoroughly rinsed with Milli-Q water and placed in an
 ozone cleaner for one hour to eliminate any trace of the surfactant
-(cetyltrimethylammonium bromide, CTAB.) To perform the measurements, the
-samples were mounted on a flowcell and the initial spectra were taken with the
-rods immersed in Milli-Q water. Figure \ref{fig:setup}c shows an example of the
+(cetyltrimethylammonium bromide, CTAB.) To perform the measurements, the samples
+were mounted on a flowcell and the initial spectra were taken with the rods
+immersed in Milli-Q water. Figure \ref{fig:setup}c shows an example of the
 luminescence spectrum of a single particle. Having this initial characterization
-allowed us to discard clusters of rods\cite{Funston2009} from the study. Next a
-solution of KCN was flowed with concentrations ranging from $3\uM$ to $80\uM$.
-In each case the spectra of approximately $10$ different particles were acquired
-consecutively after focusing on each one. The time resolution varies according
-to the exposure time and number of particles; in this work a spectrum of each
-particle was taken at least every minute.
+allowed us to discard clusters of rods\cite{Funston2009} from the study. 
+
+Of each sample, approximately $10$ different particles were selected. Afterwards
+a solution of KCN was flowed into the sample chamber and spectra of each
+particle were acquired consecutively after focusing on each one. The time
+resolution varies according to the exposure time and number of particles
+studied; in this work a spectrum of each particle was taken at least every
+minute. Concentrations of KCN ranging from $10\uM$ to $80\uM$ were employed with
+different samples.
 
 \section{Results}
 
@@ -310,7 +319,7 @@ Single-particle spectra display a narrow Lorentzian lineshape\cite{Funston2009}
 while clusters show additional features or a broad spectrum. Figure
 \ref{fig:setup}c shows a typical spectrum originating from a single
 nanoparticle. In the samples analyzed more than $90\%$ of the
-diffraction-limited bright spots originate from single gold nanorods.
+diffraction-limited bright spots originate from single gold nanorods. 
 
 \begin{figure*}[htp]
  \centering
@@ -426,7 +435,7 @@ positioning of the resonance peak.
  \includegraphics[width=\textwidth]{Figures/02_Simulations/simulations.png}
  \caption{Simulated plasmon spectra at different etching stages. a) Examples of
  the curves obtained at different simulations steps. The black curves are fits
- with Lorentzians. The left inset show the maximum scattering cross section as
+ with Lorentzians. The left inset shows the maximum scattering cross section as
  function of etching. The right inset displays the plasmon shift of
  experimental and simulated data as the relative volume of the particle
  diminishes. b) Shift rate as a function of the initial plasmon resonance for
@@ -581,11 +590,11 @@ would aggregate. Our results provide evidence that supports previous
 observations regarding the effect of the curvature and the accessibility of
 KCN to the surface of the particle.
 
-\begin{acknowledgement}
+\section{Acknowledgements}
 SK acknowledges financial support from IIT-Gandhinagar. This work is part of the
 research programme of the Foundation for Fundamental Research on Matter (FOM),
 which is part of the Netherlands Organisation for Scientific Research (NWO).
-\end{acknowledgement}
+
 
 
 \bibliography{KCN}
