@@ -431,16 +431,16 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="313.2645"
-     inkscape:cy="-40.653066"
+     inkscape:cx="197.55021"
+     inkscape:cy="-40.653058"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -619,12 +619,12 @@
      transform="translate(-7.7916572,-31.557487)">
     <polygon
        id="polygon4603"
-       points="545.063,88.797 545.063,88.797 86.063,88.797 86.063,88.797 "
+       points="86.063,88.797 545.063,88.797 545.063,88.797 86.063,88.797 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.3847205,0,0,0.3847205,-1.171823,14.992537)" />
     <polygon
        id="polygon4605"
-       points="86.063,411.188 86.063,88.797 86.063,88.797 86.063,411.188 "
+       points="86.063,411.188 86.063,411.188 86.063,88.797 86.063,88.797 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.3847205,0,0,0.3847205,-1.171823,14.992537)" />
     <text
@@ -741,12 +741,12 @@
        transform="matrix(0.3847205,0,0,0.3847205,-1.171823,10.942897)" />
     <polygon
        id="polygon4708"
-       points="86.063,82.238 545.063,82.238 545.063,82.238 86.063,82.238 "
+       points="86.063,82.238 86.063,82.238 545.063,82.238 545.063,82.238 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.3847205,0,0,0.3847205,-1.171823,16.342417)" />
     <polygon
        id="polygon4710"
-       points="86.063,420.863 86.063,420.863 86.063,82.238 86.063,82.238 "
+       points="86.063,82.238 86.063,420.863 86.063,420.863 86.063,82.238 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.3847205,0,0,0.3847205,-1.171823,16.342417)" />
     <g

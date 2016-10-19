@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.55902"
-   height="1052.3622"
+   width="265.28094"
+   height="269.71417"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -23,58 +23,62 @@
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker5936"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5938"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="marker5872"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5874"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5309"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Lend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Lend"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path5303"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <clipPath
        id="ID000010">
@@ -109,20 +113,24 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="181.32168"
-     inkscape:cy="893.95772"
+     inkscape:zoom="0.9050967"
+     inkscape:cx="289.0612"
+     inkscape:cy="37.396308"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="mm"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -131,7 +139,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -139,20 +147,20 @@
      inkscape:label="Main"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-2.5390623e-6)">
+     transform="translate(-19.507034,-24.946976)">
     <polygon
        id="polygon3250"
-       points="763.594,63.281 109.688,63.281 109.688,750.938 763.594,750.938 "
+       points="763.594,750.938 763.594,63.281 109.688,63.281 109.688,750.938 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.35514565,0,0,0.35514565,5.6072601,6.0417144)" />
     <polygon
        id="polygon3252"
-       points="763.594,63.281 109.688,63.281 109.688,63.281 763.594,63.281 "
+       points="763.594,63.281 763.594,63.281 109.688,63.281 109.688,63.281 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.35514565,0,0,0.35514565,5.6072601,6.0417144)" />
     <polygon
        id="polygon3254"
-       points="109.688,63.281 109.688,63.281 109.688,750.938 109.688,750.937 "
+       points="109.688,750.937 109.688,63.281 109.688,63.281 109.688,750.938 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.35514565,0,0,0.35514565,5.6072601,6.0417144)" />
     <g
@@ -540,7 +548,7 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.99999976px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="157.99417"
        y="50.811718"
        id="text6080"
@@ -554,20 +562,21 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Inset"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-19.507034,-24.946973)">
     <polygon
        id="polygon5713"
-       points="85.313,29.531 85.313,332.813 475.125,332.813 475.125,29.531 "
+       points="475.125,29.531 85.313,29.531 85.313,332.813 475.125,332.813 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20085709,0,0,0.20085709,73.964973,186.0289)" />
     <polygon
        id="polygon5715"
-       points="85.313,29.531 85.313,29.531 475.125,29.531 475.125,29.531 "
+       points="475.125,29.531 85.313,29.531 85.313,29.531 475.125,29.531 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20085709,0,0,0.20085709,73.964973,186.0289)" />
     <polygon
        id="polygon5717"
-       points="85.313,29.531 85.313,332.813 85.313,332.813 85.313,29.531 "
+       points="85.313,29.531 85.313,29.531 85.313,332.813 85.313,332.813 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20085709,0,0,0.20085709,73.964973,186.0289)" />
     <g

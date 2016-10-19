@@ -9,15 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.55902"
-   height="1052.3622"
+   width="561.68164"
+   height="214.82819"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="shifts.svg"
    inkscape:export-filename="C:\Users\aquiles\Documents\KCN\kcn-paper\Figures\03_Shifts\shifts.png"
    inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-ydpi="600"
+   shape-rendering="crispEdges">
   <defs
      id="defs4">
     <clipPath
@@ -62,16 +63,16 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8101934"
-     inkscape:cx="81.281801"
-     inkscape:cy="932.76841"
+     inkscape:cx="-9.2190645"
+     inkscape:cy="96.241967"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -80,7 +81,11 @@
      inkscape:guide-bbox="true"
      borderlayer="false"
      inkscape:showpageshadow="true"
-     showborder="true" />
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -89,7 +94,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,11 +102,11 @@
      inkscape:label="FWHM"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,0.00129768)"
+     transform="translate(-1.0076655,-1.0062547)"
      style="display:inline">
     <polygon
        id="polygon3179"
-       points="551.484,66.375 127.5,66.375 127.5,66.375 551.484,66.375 "
+       points="551.484,66.375 551.484,66.375 127.5,66.375 127.5,66.375 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.49051143,0,0,0.39439665,-28.781778,-18.265215)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -483,11 +488,11 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="SimulationsFWHM"
-     transform="translate(0,0.00129768)"
+     transform="translate(-1.0076655,-1.0062547)"
      style="display:inline">
     <polygon
        id="polygon4802"
-       points="127.5,66.797 127.5,66.797 551.484,66.797 551.484,66.797 "
+       points="551.484,66.797 127.5,66.797 127.5,66.797 551.484,66.797 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.24583204,0,0,0.24583204,97.997982,-4.9208808)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -891,7 +896,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Shift_Concentration"
-     transform="translate(0,0.00129768)"
+     transform="translate(-1.0076655,-1.0062547)"
      style="display:inline">
     <g
        id="ID000005-3"
@@ -908,69 +913,69 @@
          id="g6172">
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="130.954,477.692 126.954,484.62 122.954,477.692 122.954,477.692 "
+           points="122.954,477.692 130.954,477.692 126.954,484.62 122.954,477.692 "
            id="polygon6174" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="152.433,461.329 148.433,468.257 144.433,461.329 144.433,461.329 "
+           points="144.433,461.329 152.433,461.329 148.433,468.257 144.433,461.329 "
            id="polygon6176" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="173.918,444.51 169.918,451.438 165.918,444.51 165.918,444.51 "
+           points="165.918,444.51 173.918,444.51 169.918,451.438 165.918,444.51 "
            id="polygon6178" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="195.398,429.432 191.398,436.36 187.398,429.432 187.398,429.432 "
+           points="187.398,429.432 195.398,429.432 191.398,436.36 187.398,429.432 "
            id="polygon6180" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="239.865,408.899 235.865,415.827 231.865,408.899 231.865,408.899 "
+           points="231.865,408.899 239.865,408.899 235.865,415.827 231.865,408.899 "
            id="polygon6182" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="261.345,395.782 257.345,402.71 253.345,395.782 253.345,395.782 "
+           points="253.345,395.782 261.345,395.782 257.345,402.71 253.345,395.782 "
            id="polygon6184" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="282.83,383.692 278.83,390.62 274.83,383.692 274.83,383.692 "
+           points="274.83,383.692 282.83,383.692 278.83,390.62 274.83,383.692 "
            id="polygon6186" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="304.304,370.775 300.304,377.703 296.304,370.775 296.304,370.775 "
+           points="296.304,370.775 304.304,370.775 300.304,377.703 296.304,370.775 "
            id="polygon6188" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="325.777,357.796 321.777,364.724 317.777,357.796 317.777,357.796 "
+           points="317.777,357.796 325.777,357.796 321.777,364.724 317.777,357.796 "
            id="polygon6190" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="370.218,332.978 366.218,339.906 362.218,332.978 362.218,332.978 "
+           points="362.218,332.978 370.218,332.978 366.218,339.906 362.218,332.978 "
            id="polygon6192" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="391.692,315.465 387.692,322.393 383.692,315.465 383.692,315.465 "
+           points="383.692,315.465 391.692,315.465 387.692,322.393 383.692,315.465 "
            id="polygon6194" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="413.166,296.48 409.166,303.408 405.166,296.48 405.166,296.48 "
+           points="405.166,296.48 413.166,296.48 409.166,303.408 405.166,296.48 "
            id="polygon6196" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="434.646,275.439 430.646,282.367 426.646,275.439 426.646,275.439 "
+           points="426.646,275.439 434.646,275.439 430.646,282.367 426.646,275.439 "
            id="polygon6198" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="456.12,252.329 452.12,259.257 448.12,252.329 448.12,252.329 "
+           points="448.12,252.329 456.12,252.329 452.12,259.257 448.12,252.329 "
            id="polygon6200" />
         <polygon
            style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="500.56,205.883 496.56,212.811 492.56,205.883 492.56,205.883 "
+           points="492.56,205.883 500.56,205.883 496.56,212.811 492.56,205.883 "
            id="polygon6202" />
       </g>
     </g>
     <polygon
        id="polygon6058"
-       points="117.188,42.187 117.188,42.187 636.328,42.187 636.328,42.187 "
+       points="636.328,42.187 117.188,42.187 117.188,42.187 636.328,42.187 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42720735,0,0,0.42720735,285.71032,-7.073869)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -978,7 +983,7 @@
        inkscape:export-ydpi="600" />
     <polygon
        id="polygon6060"
-       points="117.188,42.187 117.188,480 117.188,480 117.188,42.187 "
+       points="117.188,42.187 117.188,42.187 117.188,480 117.188,480 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42720735,0,0,0.42720735,285.71032,-7.073869)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -1044,115 +1049,115 @@
          id="g6082">
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="122.168,480 124.996,484 127.825,480 124.996,476 122.168,480 "
+           points="124.996,476 122.168,480 122.168,480 124.996,484 127.825,480 "
            id="polygon6084" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="139.743,475.47 142.571,479.47 145.4,475.47 142.571,471.47 139.743,475.47 "
+           points="142.571,471.47 139.743,475.47 139.743,475.47 142.571,479.47 145.4,475.47 "
            id="polygon6086" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="157.313,471.125 160.141,475.125 162.97,471.125 160.141,467.125 157.313,471.125 "
+           points="160.141,467.125 157.313,471.125 157.313,471.125 160.141,475.125 162.97,471.125 "
            id="polygon6088" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="174.882,466.349 177.711,470.349 180.539,466.349 177.711,462.349 174.882,466.349 "
+           points="177.711,462.349 174.882,466.349 174.882,466.349 177.711,470.349 180.539,466.349 "
            id="polygon6090" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="192.458,461.898 195.286,465.898 198.114,461.898 195.286,457.898 192.458,461.898 "
+           points="195.286,457.898 192.458,461.898 192.458,461.898 195.286,465.898 198.114,461.898 "
            id="polygon6092" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="228.808,452.929 231.637,456.929 234.465,452.929 231.637,448.929 228.808,452.929 "
+           points="231.637,448.929 228.808,452.929 228.808,452.929 231.637,456.929 234.465,452.929 "
            id="polygon6094" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="246.389,447.55 249.217,451.55 252.045,447.55 249.217,443.55 246.389,447.55 "
+           points="249.217,443.55 246.389,447.55 246.389,447.55 249.217,451.55 252.045,447.55 "
            id="polygon6096" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="263.958,440.714 266.787,444.714 269.615,440.714 266.787,436.714 263.958,440.714 "
+           points="266.787,436.714 263.958,440.714 263.958,440.714 266.787,444.714 269.615,440.714 "
            id="polygon6098" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="281.528,435.133 284.356,439.133 287.185,435.133 284.356,431.133 281.528,435.133 "
+           points="284.356,431.133 281.528,435.133 281.528,435.133 284.356,439.133 287.185,435.133 "
            id="polygon6100" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="299.098,429.357 301.926,433.357 304.755,429.357 301.926,425.357 299.098,429.357 "
+           points="301.926,425.357 299.098,429.357 299.098,429.357 301.926,433.357 304.755,429.357 "
            id="polygon6102" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="316.673,423.973 319.501,427.973 322.33,423.973 319.501,419.973 316.673,423.973 "
+           points="319.501,419.973 316.673,423.973 316.673,423.973 319.501,427.973 322.33,423.973 "
            id="polygon6104" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="353.045,415.719 355.873,419.719 358.702,415.719 355.873,411.719 353.045,415.719 "
+           points="355.873,411.719 353.045,415.719 353.045,415.719 355.873,419.719 358.702,415.719 "
            id="polygon6106" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="370.62,409.216 373.448,413.216 376.277,409.216 373.448,405.216 370.62,409.216 "
+           points="373.448,405.216 370.62,409.216 370.62,409.216 373.448,413.216 376.277,409.216 "
            id="polygon6108" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="388.19,401.613 391.018,405.613 393.847,401.613 391.018,397.613 388.19,401.613 "
+           points="391.018,397.613 388.19,401.613 388.19,401.613 391.018,405.613 393.847,401.613 "
            id="polygon6110" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="405.754,395.233 408.583,399.233 411.411,395.233 408.583,391.233 405.754,395.233 "
+           points="408.583,391.233 405.754,395.233 405.754,395.233 408.583,399.233 411.411,395.233 "
            id="polygon6112" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="423.329,389.121 426.158,393.121 428.986,389.121 426.158,385.121 423.329,389.121 "
+           points="426.158,385.121 423.329,389.121 423.329,389.121 426.158,393.121 428.986,389.121 "
            id="polygon6114" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="440.899,381.992 443.727,385.992 446.555,381.992 443.727,377.992 440.899,381.992 "
+           points="443.727,377.992 440.899,381.992 440.899,381.992 443.727,385.992 446.555,381.992 "
            id="polygon6116" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="477.249,372.466 480.078,376.466 482.906,372.466 480.078,368.466 477.249,372.466 "
+           points="480.078,368.466 477.249,372.466 477.249,372.466 480.078,376.466 482.906,372.466 "
            id="polygon6118" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="494.819,363.577 497.647,367.577 500.476,363.577 497.647,359.577 494.819,363.577 "
+           points="497.647,359.577 494.819,363.577 494.819,363.577 497.647,367.577 500.476,363.577 "
            id="polygon6120" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="512.383,350.978 515.212,354.978 518.04,350.978 515.212,346.978 512.383,350.978 "
+           points="515.212,346.978 512.383,350.978 512.383,350.978 515.212,354.978 518.04,350.978 "
            id="polygon6122" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="529.953,337.291 532.781,341.291 535.61,337.291 532.781,333.291 529.953,337.291 "
+           points="532.781,333.291 529.953,337.291 529.953,337.291 532.781,341.291 535.61,337.291 "
            id="polygon6124" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="547.523,323.11 550.351,327.11 553.18,323.11 550.351,319.11 547.523,323.11 "
+           points="550.351,319.11 547.523,323.11 547.523,323.11 550.351,327.11 553.18,323.11 "
            id="polygon6126" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="565.092,308.036 567.921,312.036 570.749,308.036 567.921,304.036 565.092,308.036 "
+           points="567.921,304.036 565.092,308.036 565.092,308.036 567.921,312.036 570.749,308.036 "
            id="polygon6128" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="601.438,280.736 604.266,284.736 607.094,280.736 604.266,276.736 601.438,280.736 "
+           points="604.266,276.736 601.438,280.736 601.438,280.736 604.266,284.736 607.094,280.736 "
            id="polygon6130" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="619.007,264.9 621.835,268.9 624.664,264.9 621.835,260.9 619.007,264.9 "
+           points="621.835,260.9 619.007,264.9 619.007,264.9 621.835,268.9 624.664,264.9 "
            id="polygon6132" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="636.571,249.96 639.4,253.96 642.228,249.96 639.4,245.96 636.571,249.96 "
+           points="639.4,245.96 636.571,249.96 636.571,249.96 639.4,253.96 642.228,249.96 "
            id="polygon6134" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="654.147,233.056 656.975,237.056 659.803,233.056 656.975,229.056 654.147,233.056 "
+           points="656.975,229.056 654.147,233.056 654.147,233.056 656.975,237.056 659.803,233.056 "
            id="polygon6136" />
         <polygon
            style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="671.711,215.292 674.539,219.292 677.368,215.292 674.539,211.292 671.711,215.292 "
+           points="674.539,211.292 671.711,215.292 671.711,215.292 674.539,219.292 677.368,215.292 "
            id="polygon6138" />
       </g>
     </g>
@@ -1171,51 +1176,51 @@
          id="g6143">
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="113.188,476 113.188,484 121.188,484 121.188,476 113.188,476 "
+           points="121.188,476 113.188,476 113.188,476 113.188,484 121.188,484 "
            id="polygon6145" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="132.709,456.286 132.709,464.286 140.709,464.286 140.709,456.286 132.709,456.286 "
+           points="140.709,456.286 132.709,456.286 132.709,456.286 132.709,464.286 140.709,464.286 "
            id="polygon6147" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="152.225,435.741 152.225,443.741 160.225,443.741 160.225,435.741 152.225,435.741 "
+           points="160.225,435.741 152.225,435.741 152.225,435.741 152.225,443.741 160.225,443.741 "
            id="polygon6149" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="171.753,416.633 171.753,424.633 179.753,424.633 179.753,416.633 171.753,416.633 "
+           points="179.753,416.633 171.753,416.633 171.753,416.633 171.753,424.633 179.753,424.633 "
            id="polygon6151" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="191.28,397.328 191.28,405.328 199.28,405.328 199.28,397.328 191.28,397.328 "
+           points="199.28,397.328 191.28,397.328 191.28,397.328 191.28,405.328 199.28,405.328 "
            id="polygon6153" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="231.681,363.396 231.681,371.396 239.681,371.396 239.681,363.396 231.681,363.396 "
+           points="239.681,363.396 231.681,363.396 231.681,363.396 231.681,371.396 239.681,371.396 "
            id="polygon6155" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="251.198,339.417 251.198,347.417 259.198,347.417 259.198,339.417 251.198,339.417 "
+           points="259.198,339.417 251.198,339.417 251.198,339.417 251.198,347.417 259.198,347.417 "
            id="polygon6157" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="270.725,310.714 270.725,318.714 278.725,318.714 278.725,310.714 270.725,310.714 "
+           points="278.725,310.714 270.725,310.714 270.725,310.714 270.725,318.714 278.725,318.714 "
            id="polygon6159" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="290.252,277.961 290.252,285.961 298.252,285.961 298.252,277.961 290.252,277.961 "
+           points="298.252,277.961 290.252,277.961 290.252,277.961 290.252,285.961 298.252,285.961 "
            id="polygon6161" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="309.779,239.82 309.779,247.82 317.779,247.82 317.779,239.82 309.779,239.82 "
+           points="317.779,239.82 309.779,239.82 309.779,239.82 309.779,247.82 317.779,247.82 "
            id="polygon6163" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="329.296,195.391 329.296,203.391 337.296,203.391 337.296,195.391 329.296,195.391 "
+           points="337.296,195.391 329.296,195.391 329.296,195.391 329.296,203.391 337.296,203.391 "
            id="polygon6165" />
         <polygon
            style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-           points="369.713,124.184 369.713,132.184 377.713,132.184 377.713,124.184 369.713,124.184 "
+           points="377.713,124.184 369.713,124.184 369.713,124.184 369.713,132.184 377.713,132.184 "
            id="polygon6167" />
       </g>
     </g>
@@ -1515,7 +1520,7 @@
        inkscape:export-ydpi="600" />
     <polygon
        id="polygon6335"
-       points="483.594,48.906 483.594,48.906 630.781,48.906 630.781,48.906 "
+       points="630.781,48.906 483.594,48.906 483.594,48.906 630.781,48.906 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42720735,0,0,0.42720735,285.71032,-7.073869)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -1523,7 +1528,7 @@
        inkscape:export-ydpi="600" />
     <polygon
        id="polygon6337"
-       points="483.594,48.906 483.594,247.031 483.594,247.031 483.594,48.906 "
+       points="483.594,48.906 483.594,48.906 483.594,247.031 483.594,247.031 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42720735,0,0,0.42720735,285.71032,-7.073869)"
        inkscape:export-filename="C:\Users\carattino\Documents\Paper_Writing\KCN\Paper\Figures\03_Shifts\shifts.png"
@@ -1627,7 +1632,7 @@
              id="g6383">
             <polygon
                style="fill:none;stroke:#bf00bf;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-               points="507.015,123.75 509.844,127.75 512.672,123.75 509.844,119.75 507.015,123.75 "
+               points="509.844,119.75 507.015,123.75 507.015,123.75 509.844,127.75 512.672,123.75 "
                id="polygon6385" />
           </g>
         </g>
@@ -1678,7 +1683,7 @@
              id="g6406">
             <polygon
                style="fill:none;stroke:#0000ff;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-               points="513.844,168.188 505.844,168.188 505.844,168.188 505.844,176.188 513.844,176.188 "
+               points="505.844,176.188 513.844,176.188 513.844,168.188 505.844,168.188 505.844,168.188 "
                id="polygon6408" />
           </g>
         </g>
@@ -1729,7 +1734,7 @@
              id="g6429">
             <polygon
                style="fill:none;stroke:#00ff00;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-               points="509.844,225.245 505.844,218.317 505.844,218.317 513.844,218.317 "
+               points="513.844,218.317 509.844,225.245 505.844,218.317 505.844,218.317 "
                id="polygon6431" />
           </g>
         </g>

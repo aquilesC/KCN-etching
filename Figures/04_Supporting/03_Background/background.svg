@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="288.77951"
-   height="1052.3622"
+   width="287.09799"
+   height="212.24745"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="background.svg"
-   inkscape:export-filename="C:\Users\carattino\Documents\KCN\Paper\Figures\04_Supporting\03_Background\background.png"
+   inkscape:export-filename="C:\Users\aquiles\Documents\KCN\kcn-paper\Figures\04_Supporting\03_Background\background.png"
    inkscape:export-xdpi="600.00421"
    inkscape:export-ydpi="600.00421">
   <defs
@@ -35,20 +35,24 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="134.92474"
-     inkscape:cy="1032.3075"
+     inkscape:cx="17.424742"
+     inkscape:cy="199.22713"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="mm"
      inkscape:window-width="1920"
-     inkscape:window-height="1028"
-     inkscape:window-x="1672"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -65,7 +69,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1.3390625e-5)">
+     transform="translate(-1.7857127,-7.0343757)">
     <rect
        style="fill:#ffffff;stroke:none"
        x="1.7857127"
@@ -75,17 +79,17 @@
        id="rect3133" />
     <polygon
        id="polygon3139"
-       points="85.313,29.109 85.313,327.188 475.125,327.188 475.125,29.109 "
+       points="475.125,29.109 85.313,29.109 85.313,327.188 475.125,327.188 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.54685334,0,0,0.54685334,1.7857127,7.0343756)" />
     <polygon
        id="polygon3141"
-       points="85.313,29.109 85.313,29.109 475.125,29.109 475.125,29.109 "
+       points="475.125,29.109 85.313,29.109 85.313,29.109 475.125,29.109 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.54685334,0,0,0.54685334,1.7857127,7.0343756)" />
     <polygon
        id="polygon3143"
-       points="85.313,29.109 85.313,327.188 85.313,327.188 85.313,29.109 "
+       points="85.313,29.109 85.313,29.109 85.313,327.188 85.313,327.188 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.54685334,0,0,0.54685334,1.7857127,7.0343756)" />
     <polyline
@@ -98,14 +102,14 @@
        font-size="19pt"
        y="210.40826"
        x="154.76793"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
        sodipodi:linespacing="125%">Wavelength (nm)</text>
     <text
        id="text3164"
        font-size="19pt"
        y="19.436108"
        x="-105.22408"
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%">Intensity (counts/5s)</text>
     <polyline
@@ -149,35 +153,35 @@
        id="polyline3183"
        transform="matrix(0.54685334,0,0,0.54685334,1.7857127,7.0343756)" />
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="56.002399"
        y="195.88759"
        font-size="19pt"
        id="text3189"
        sodipodi:linespacing="125%">600</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="109.2949"
        y="195.88759"
        font-size="19pt"
        id="text3195"
        sodipodi:linespacing="125%">650</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="162.54346"
        y="195.88759"
        font-size="19pt"
        id="text3201"
        sodipodi:linespacing="125%">700</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="215.83595"
        y="195.88759"
        font-size="19pt"
        id="text3207"
        sodipodi:linespacing="125%">750</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="269.15921"
        y="195.88759"
        font-size="19pt"
@@ -224,35 +228,35 @@
        id="polyline3229"
        transform="matrix(0.54685334,0,0,0.54685334,1.7857127,7.0343756)" />
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="44.175594"
        y="189.13766"
        font-size="19pt"
        id="text3235"
        sodipodi:linespacing="125%">620</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="44.175594"
        y="148.38615"
        font-size="19pt"
        id="text3241"
        sodipodi:linespacing="125%">640</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="44.175594"
        y="107.63465"
        font-size="19pt"
        id="text3247"
        sodipodi:linespacing="125%">660</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="44.175594"
        y="66.883682"
        font-size="19pt"
        id="text3253"
        sodipodi:linespacing="125%">680</text>
     <text
-       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000"
        x="44.175594"
        y="26.132174"
        font-size="19pt"

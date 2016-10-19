@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.55902"
-   height="1052.3622"
+   width="566.11444"
+   height="245.16362"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -431,21 +431,25 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="470.46086"
-     inkscape:cy="898.65869"
+     inkscape:zoom="1.4"
+     inkscape:cx="300.1202"
+     inkscape:cy="103.52314"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1672"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      showguides="false"
-     units="mm" />
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -454,7 +458,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -463,15 +467,15 @@
      id="layer2"
      inkscape:label="B"
      style="display:inline"
-     transform="translate(0,1.3037111e-6)">
+     transform="translate(-6.4570312,-25.557487)">
     <polygon
        id="polygon5464"
-       points="519.244,36.281 519.244,36.281 117.188,36.281 117.188,36.281 "
+       points="117.188,36.281 519.244,36.281 519.244,36.281 117.188,36.281 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.53959355,0,0,0.53959355,287.60613,24.395086)" />
     <polygon
        id="polygon5466"
-       points="117.188,401.25 117.188,36.281 117.188,36.281 117.188,401.25 "
+       points="117.188,401.25 117.188,401.25 117.188,36.281 117.188,36.281 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.53959355,0,0,0.53959355,287.60613,24.395086)" />
     <text
@@ -1161,7 +1165,8 @@
      id="layer5"
      inkscape:label="Particles"
      sodipodi:insensitive="true"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-6.4570312,-25.557489)">
     <g
        transform="matrix(0.841544,0,0,0.84029743,-81.60566,-154.78111)"
        style="display:inline"
@@ -1310,16 +1315,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(0,1.3037111e-6)"
+     transform="translate(-6.4570312,-25.557487)"
      sodipodi:insensitive="true">
     <polygon
        id="polygon4603"
-       points="86.063,88.797 86.063,88.797 545.063,88.797 545.063,88.797 "
+       points="545.063,88.797 86.063,88.797 86.063,88.797 545.063,88.797 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.57000696,0,0,0.57000696,-5.488753,1.01464)" />
     <polygon
        id="polygon4605"
-       points="86.063,88.797 86.063,411.188 86.063,411.188 86.063,88.797 "
+       points="86.063,88.797 86.063,88.797 86.063,411.188 86.063,411.188 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.57000696,0,0,0.57000696,-5.488753,1.01464)" />
     <text
@@ -1436,12 +1441,12 @@
        transform="matrix(0.57000696,0,0,0.57000696,-5.488753,-4.98536)" />
     <polygon
        id="polygon4708"
-       points="545.063,82.238 86.063,82.238 86.063,82.238 545.063,82.238 "
+       points="545.063,82.238 545.063,82.238 86.063,82.238 86.063,82.238 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.57000696,0,0,0.57000696,-5.488753,3.01464)" />
     <polygon
        id="polygon4710"
-       points="86.063,82.238 86.063,82.238 86.063,420.863 86.063,420.863 "
+       points="86.063,420.863 86.063,82.238 86.063,82.238 86.063,420.863 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.57000696,0,0,0.57000696,-5.488753,3.01464)" />
     <g
@@ -1663,21 +1668,21 @@
      id="layer3"
      inkscape:label="Inset01"
      style="display:inline"
-     transform="translate(0,1.3037111e-6)"
+     transform="translate(-6.4570312,-25.557487)"
      sodipodi:insensitive="true">
     <polygon
        id="polygon10033"
-       points="114.75,46.219 114.75,369.75 459,369.75 459,46.219 "
+       points="459,46.219 114.75,46.219 114.75,369.75 459,369.75 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <polygon
        id="polygon10035"
-       points="114.75,46.219 114.75,46.219 459,46.219 459,46.219 "
+       points="459,46.219 114.75,46.219 114.75,46.219 459,46.219 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <polygon
        id="polygon10037"
-       points="114.75,46.219 114.75,369.75 114.75,369.75 114.75,46.219 "
+       points="114.75,46.219 114.75,46.219 114.75,369.75 114.75,369.75 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <text
@@ -1772,17 +1777,17 @@
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <polygon
        id="polygon10100"
-       points="114.75,46.219 114.75,369.75 459,369.75 459,46.219 "
+       points="459,46.219 114.75,46.219 114.75,369.75 459,369.75 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <polygon
        id="polygon10102"
-       points="114.75,46.219 114.75,46.219 459,46.219 459,46.219 "
+       points="459,46.219 114.75,46.219 114.75,46.219 459,46.219 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <polygon
        id="polygon10104"
-       points="114.75,46.219 114.75,369.75 114.75,369.75 114.75,46.219 "
+       points="114.75,46.219 114.75,46.219 114.75,369.75 114.75,369.75 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.20241134,0,0,0.20241134,191.07627,42.57954)" />
     <circle
@@ -2224,7 +2229,7 @@
      id="layer4"
      inkscape:label="Inset02"
      style="display:inline"
-     transform="translate(0,1.3037111e-6)"
+     transform="translate(-6.4570312,-25.557487)"
      sodipodi:insensitive="true">
     <circle
        style="fill:#000000;stroke:none"
@@ -2647,7 +2652,7 @@
      id="layer6"
      inkscape:label="Holder"
      style="display:inline"
-     transform="translate(0,1.3037111e-6)"
+     transform="translate(-6.4570312,-25.557487)"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"

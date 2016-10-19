@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="577.55902"
-   height="1052.3622"
+   width="560.79144"
+   height="242.35147"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -23,16 +23,17 @@
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
-       style="overflow:visible;"
+       style="overflow:visible"
        inkscape:isstock="true">
       <path
          id="path16027"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <clipPath
        id="ID000001">
@@ -474,27 +475,33 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101934"
-     inkscape:cx="273.17233"
-     inkscape:cy="950.92357"
+     inkscape:zoom="0.9050967"
+     inkscape:cx="119.75344"
+     inkscape:cy="-0.54592886"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     units="mm">
+     units="mm"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
     <inkscape:grid
        type="xygrid"
        id="grid12132"
        empspacing="5"
        visible="true"
        enabled="true"
-       snapvisiblegridlinesonly="true" />
+       snapvisiblegridlinesonly="true"
+       originx="-11.050051"
+       originy="-780.78043" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -504,7 +511,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -512,7 +519,7 @@
      inkscape:label="Spectra"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-6.1562498e-6)"
+     transform="translate(-11.050051,-29.230289)"
      style="display:inline"
      sodipodi:insensitive="true">
     <g
@@ -520,17 +527,17 @@
        transform="matrix(0.41548506,0,0,0.41548506,64.018178,61.711732)" />
     <polygon
        id="polygon10633"
-       points="690.628,526.875 690.628,54.375 105,54.375 105,526.875 "
+       points="105,526.875 690.628,526.875 690.628,54.375 105,54.375 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.40169899,0,0,0.39740224,18.008196,36.627153)" />
     <polygon
        id="polygon10635"
-       points="105,54.375 690.628,54.375 690.628,54.375 105,54.375 "
+       points="105,54.375 105,54.375 690.628,54.375 690.628,54.375 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.43080676,0,0,0.43080676,-2.094444,19.027149)" />
     <polygon
        id="polygon10637"
-       points="105,526.875 105,526.875 105,54.375 105,54.375 "
+       points="105,54.375 105,526.875 105,526.875 105,54.375 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.43080676,0,0,0.43080676,-2.094444,19.027149)" />
     <g
@@ -3274,16 +3281,16 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Intensity"
-     transform="translate(0,-6.1562498e-6)"
+     transform="translate(-11.050051,-29.230289)"
      style="display:inline">
     <polygon
        id="polygon7197"
-       points="551.484,54.375 135.938,54.375 135.938,54.375 551.484,54.375 "
+       points="551.484,54.375 551.484,54.375 135.938,54.375 135.938,54.375 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.18352627,0,0,0.15531837,38.401894,48.209944)" />
     <polygon
        id="polygon7199"
-       points="135.938,54.375 135.938,54.375 135.938,526.875 135.938,526.875 "
+       points="135.938,526.875 135.938,54.375 135.938,54.375 135.938,526.875 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.18352627,0,0,0.15531837,38.401894,48.209944)" />
     <circle
@@ -3623,17 +3630,17 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="SPR"
-     transform="translate(0,-6.1562498e-6)"
+     transform="translate(-11.050051,-29.230289)"
      style="display:none"
      sodipodi:insensitive="true">
     <polygon
        id="polygon7997"
-       points="117.188,526.875 117.188,526.875 551.484,526.875 551.484,526.875 "
+       points="551.484,526.875 117.188,526.875 117.188,526.875 551.484,526.875 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.19901461,0,0,0.19901461,107.97345,321.66226)" />
     <polygon
        id="polygon7999"
-       points="117.188,45.703 117.188,526.875 117.188,526.875 117.188,45.703 "
+       points="117.188,45.703 117.188,45.703 117.188,526.875 117.188,526.875 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.19901461,0,0,0.19901461,107.97345,321.66226)" />
     <circle
@@ -3936,7 +3943,8 @@
      id="layer9"
      inkscape:label="SPR_Volume"
      style="display:inline"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-11.050051,-29.230283)">
     <text
        x="227.30962"
        xml:space="preserve"
@@ -4857,7 +4865,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="rates"
-     transform="translate(0,-6.1562498e-6)"
+     transform="translate(-11.050051,-29.230289)"
      style="display:inline"
      sodipodi:insensitive="true">
     <g
@@ -4865,17 +4873,17 @@
        transform="matrix(0.40550899,0,0,0.40550899,401.8872,58.908557)" />
     <polygon
        id="polygon5854"
-       points="79.219,542.344 551.484,542.344 551.484,45.703 79.219,45.703 "
+       points="79.219,45.703 79.219,542.344 551.484,542.344 551.484,45.703 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        id="polygon5856"
-       points="79.219,45.703 551.484,45.703 551.484,45.703 79.219,45.703 "
+       points="79.219,45.703 79.219,45.703 551.484,45.703 551.484,45.703 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        id="polygon5858"
-       points="79.219,542.344 79.219,542.344 79.219,45.703 79.219,45.703 "
+       points="79.219,45.703 79.219,542.344 79.219,542.344 79.219,45.703 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4885,7 +4893,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="131.168,501.694 131.168,509.694 139.168,509.694 139.168,501.694 131.168,501.694 "
+       points="139.168,501.694 131.168,501.694 131.168,501.694 131.168,509.694 139.168,509.694 "
        id="polygon5867"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4895,7 +4903,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="205.112,464.504 205.112,472.504 213.112,472.504 213.112,464.504 205.112,464.504 "
+       points="213.112,464.504 205.112,464.504 205.112,464.504 205.112,472.504 213.112,472.504 "
        id="polygon5874"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4905,7 +4913,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="200.963,461.731 200.963,469.731 208.963,469.731 208.963,461.731 200.963,461.731 "
+       points="208.963,461.731 200.963,461.731 200.963,461.731 200.963,469.731 208.963,469.731 "
        id="polygon5881"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4915,7 +4923,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="255.712,454.766 255.712,462.766 263.712,462.766 263.712,454.766 255.712,454.766 "
+       points="263.712,454.766 255.712,454.766 255.712,454.766 255.712,462.766 263.712,462.766 "
        id="polygon5888"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4925,7 +4933,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="315.944,404.803 315.944,412.803 323.944,412.803 323.944,404.803 315.944,404.803 "
+       points="323.944,404.803 315.944,404.803 315.944,404.803 315.944,412.803 323.944,412.803 "
        id="polygon5895"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4935,7 +4943,7 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="492.261,326.876 492.261,334.876 500.261,334.876 500.261,326.876 492.261,326.876 "
+       points="500.261,326.876 492.261,326.876 492.261,326.876 492.261,334.876 500.261,334.876 "
        id="polygon5902"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <text
@@ -4960,32 +4968,32 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="131.168,501.694 131.168,509.694 139.168,509.694 139.168,501.694 131.168,501.694 "
+       points="139.168,501.694 131.168,501.694 131.168,501.694 131.168,509.694 139.168,509.694 "
        id="polygon5923"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="205.112,464.504 205.112,472.504 213.112,472.504 213.112,464.504 205.112,464.504 "
+       points="213.112,464.504 205.112,464.504 205.112,464.504 205.112,472.504 213.112,472.504 "
        id="polygon5925"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="200.963,461.731 200.963,469.731 208.963,469.731 208.963,461.731 200.963,461.731 "
+       points="208.963,461.731 200.963,461.731 200.963,461.731 200.963,469.731 208.963,469.731 "
        id="polygon5927"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#000000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="255.712,454.766 255.712,462.766 263.712,462.766 263.712,454.766 255.712,454.766 "
+       points="263.712,454.766 255.712,454.766 255.712,454.766 255.712,462.766 263.712,462.766 "
        id="polygon5929"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="315.944,404.803 315.944,412.803 323.944,412.803 323.944,404.803 315.944,404.803 "
+       points="323.944,404.803 315.944,404.803 315.944,404.803 315.944,412.803 323.944,412.803 "
        id="polygon5931"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="492.261,326.876 492.261,334.876 500.261,334.876 500.261,326.876 492.261,326.876 "
+       points="500.261,326.876 492.261,326.876 492.261,326.876 492.261,334.876 500.261,334.876 "
        id="polygon5933"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -4995,32 +5003,32 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="131.168,501.694 131.168,509.694 139.168,509.694 139.168,501.694 131.168,501.694 "
+       points="139.168,501.694 131.168,501.694 131.168,501.694 131.168,509.694 139.168,509.694 "
        id="polygon5940"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="205.112,464.504 205.112,472.504 213.112,472.504 213.112,464.504 205.112,464.504 "
+       points="213.112,464.504 205.112,464.504 205.112,464.504 205.112,472.504 213.112,472.504 "
        id="polygon5942"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="200.963,461.731 200.963,469.731 208.963,469.731 208.963,461.731 200.963,461.731 "
+       points="208.963,461.731 200.963,461.731 200.963,461.731 200.963,469.731 208.963,469.731 "
        id="polygon5944"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="255.712,454.766 255.712,462.766 263.712,462.766 263.712,454.766 255.712,454.766 "
+       points="263.712,454.766 255.712,454.766 255.712,454.766 255.712,462.766 263.712,462.766 "
        id="polygon5946"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="315.944,404.803 315.944,412.803 323.944,412.803 323.944,404.803 315.944,404.803 "
+       points="323.944,404.803 315.944,404.803 315.944,404.803 315.944,412.803 323.944,412.803 "
        id="polygon5948"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="492.261,326.876 492.261,334.876 500.261,334.876 500.261,326.876 492.261,326.876 "
+       points="500.261,326.876 492.261,326.876 492.261,326.876 492.261,334.876 500.261,334.876 "
        id="polygon5950"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polyline
@@ -5084,27 +5092,27 @@
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="117.304,469.895 120.132,473.895 122.96,469.895 120.132,465.895 117.304,469.895 "
+       points="120.132,465.895 117.304,469.895 117.304,469.895 120.132,473.895 122.96,469.895 "
        id="polygon5976"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="180.87,411.424 183.699,415.424 186.527,411.424 183.699,407.424 180.87,411.424 "
+       points="183.699,407.424 180.87,411.424 180.87,411.424 183.699,415.424 186.527,411.424 "
        id="polygon5978"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="250.944,344.142 253.773,348.142 256.601,344.142 253.773,340.142 250.944,344.142 "
+       points="253.773,340.142 250.944,344.142 250.944,344.142 253.773,348.142 256.601,344.142 "
        id="polygon5980"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="342.394,233.007 345.222,237.007 348.051,233.007 345.222,229.007 342.394,233.007 "
+       points="345.222,229.007 342.394,233.007 342.394,233.007 345.222,237.007 348.051,233.007 "
        id="polygon5982"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <polygon
        style="fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1"
-       points="493.99,99.132 496.818,103.132 499.647,99.132 496.818,95.132 493.99,99.132 "
+       points="496.818,95.132 493.99,99.132 493.99,99.132 496.818,103.132 499.647,99.132 "
        id="polygon5984"
        transform="matrix(0.42429007,0,0,0.42429007,329.85867,17.590599)" />
     <g
@@ -5373,7 +5381,7 @@
       <polygon
          transform="matrix(0.42429007,0,0,0.42429007,173.27901,13.801469)"
          id="polygon5984-4"
-         points="493.99,99.132 493.99,99.132 496.818,103.132 499.647,99.132 496.818,95.132 "
+         points="499.647,99.132 496.818,95.132 493.99,99.132 493.99,99.132 496.818,103.132 "
          style="display:inline;fill:none;stroke:#db0000;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cc"
@@ -5404,7 +5412,7 @@
       <polygon
          transform="matrix(0.42429007,0,0,0.42429007,173.37828,-60.885592)"
          id="polygon5950-4"
-         points="500.261,334.876 500.261,326.876 492.261,326.876 492.261,326.876 492.261,334.876 "
+         points="492.261,326.876 492.261,334.876 500.261,334.876 500.261,326.876 492.261,326.876 "
          style="display:inline;fill:none;stroke:#0000aa;stroke-width:2pt;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="cc"
@@ -5426,20 +5434,21 @@
      id="layer5"
      inkscape:label="Hidden"
      style="display:none"
-     sodipodi:insensitive="true">
+     sodipodi:insensitive="true"
+     transform="translate(-11.050051,-29.230283)">
     <polygon
        id="polygon8794"
-       points="79.219,45.703 79.219,542.344 551.484,542.344 551.484,45.703 "
+       points="551.484,45.703 79.219,45.703 79.219,542.344 551.484,542.344 "
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.41911985,0,0,0.41911985,220.25569,287.97003)" />
     <polygon
        id="polygon8796"
-       points="79.219,45.703 79.219,45.703 551.484,45.703 551.484,45.703 "
+       points="551.484,45.703 79.219,45.703 79.219,45.703 551.484,45.703 "
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.41911985,0,0,0.41911985,220.25569,287.97003)" />
     <polygon
        id="polygon8798"
-       points="79.219,45.703 79.219,542.344 79.219,542.344 79.219,45.703 "
+       points="79.219,45.703 79.219,45.703 79.219,542.344 79.219,542.344 "
        style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.41911985,0,0,0.41911985,220.25569,287.97003)" />
     <g
